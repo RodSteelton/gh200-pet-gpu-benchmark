@@ -1,0 +1,21 @@
+[2026-11-11T23:08:21.672] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+[2026-11-11T23:08:21.674] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+Wed Nov 11 11:08:21 PM EST 2026
+cdc-v11-25-s
+=== CPU vs GPU, interleaved subsets, replicate 1 23:08:21
+[R280_slot P90] grid (80, 186, 186), 10,000,000 events, OSEM 4x10, devices ['cpu', 'gpu'], 72 CPU threads, aarch64
+  CTR     200 cpu: median 8.83 s (min 8.83, max 8.83), 4.5 M event passes/s, warm-up 11.4 s
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 0.33 s (min 0.33, max 0.33), 122.6 M event passes/s, warm-up 3.2 s
+  CTR     200 GPU vs CPU: max diff 7.8e-06 of max, RMSE 1.4e-05 of mean, 0 of 10,000,000 LORs sampled with a different count, speedup 27.1x
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-25-s_20261111_230919.json
+=== CPU vs GPU, interleaved subsets, replicate 10 23:09:20
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['cpu', 'gpu'], 72 CPU threads, aarch64
+  CTR     200 cpu: median 46.17 s (min 46.17, max 46.17), 8.7 M event passes/s, warm-up 4.7 s
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 1.37 s (min 1.37, max 1.37), 291.9 M event passes/s, warm-up 1.1 s
+  CTR     200 GPU vs CPU: max diff 4.3e-06 of max, RMSE 1.2e-05 of mean, 0 of 100,000,000 LORs sampled with a different count, speedup 33.7x
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-25-s_20261111_231022.json
+Wed Nov 11 11:10:23 PM EST 2026

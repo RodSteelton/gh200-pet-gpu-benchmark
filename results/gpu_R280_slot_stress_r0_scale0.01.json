@@ -1,0 +1,27 @@
+{
+  "config": "R280_slot",
+  "state": "stress",
+  "real": 0,
+  "scale": 0.01,
+  "n_decays": 226458465,
+  "n_trues": 1124922,
+  "mbf_normal_mean": 6.948352353548565,
+  "mbf_normal_sd": 1.164563811912638,
+  "mbf_defect": 7.999999999999999,
+  "true_normal": 3.0,
+  "true_defect": 1.5,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 1.0904349440243095,
+    "osem_all_frames": 0.32339378411415964,
+    "recon_fit_total": 1.3332443529507145,
+    "fit_and_other": 1.0098505688365549,
+    "total": 2.5102950780419633
+  },
+  "gpu": "NVIDIA GH200 144G HBM3e",
+  "old_reference": {
+    "normal": 3.122,
+    "defect": 1.591,
+    "trues": 112500000.0
+  }
+}

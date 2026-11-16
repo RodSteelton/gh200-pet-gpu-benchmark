@@ -1,0 +1,102 @@
+{
+  "benchmark": "B, TOF list-mode OSEM",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "grid": [
+    186,
+    186,
+    80
+  ],
+  "voxel_mm": 3.0,
+  "n_events": 10000000,
+  "iters": 4,
+  "subsets": 10,
+  "repeats": 3,
+  "replicate": 1,
+  "inputs": {
+    "sens": "sens_R280_slot_P90_v3.npy",
+    "events": "events_fastmc_R280_slot_P90_10000000.npz",
+    "n_emitted": 2338414321
+  },
+  "generated_inputs_s": {},
+  "env": {
+    "host": "udc-ba06-3c1",
+    "machine": "x86_64",
+    "platform": "Linux-4.18.0-553.124.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 96,
+    "numba_threads": 32,
+    "slurm_job": "22860241",
+    "slurm_cpus": "32",
+    "slurm_partition": "standard-afton",
+    "time": "2026-11-12 02:00:40",
+    "scipy": "1.17.1",
+    "cpu_model": "AMD EPYC 9454 48-Core Processor",
+    "threading_layer": "omp"
+  },
+  "ctr": {
+    "0": {
+      "sigma_mm": 0.0,
+      "cpu": {
+        "median_s": 17.40590791963041,
+        "min_s": 17.17537844926119,
+        "max_s": 17.78773290105164,
+        "runs_s": [
+          17.17537844926119,
+          17.40590791963041,
+          17.78773290105164
+        ],
+        "warmup_s": 3.500770790502429,
+        "event_passes_per_s": 2298070.2980100187,
+        "lv": {
+          "myo_recovery": 0.8655351772904396,
+          "segment_cv_pct": 10.540067476224385,
+          "ant_inf_over_sep_lat": 0.777319314029006
+        }
+      }
+    },
+    "320": {
+      "sigma_mm": 20.369795005945303,
+      "cpu": {
+        "median_s": 11.158881142735481,
+        "min_s": 11.151734102517366,
+        "max_s": 11.165189241990447,
+        "runs_s": [
+          11.158881142735481,
+          11.165189241990447,
+          11.151734102517366
+        ],
+        "warmup_s": 0.21267646551132202,
+        "event_passes_per_s": 3584588.7673102706,
+        "lv": {
+          "myo_recovery": 0.9306043051183224,
+          "segment_cv_pct": 5.544836117010414,
+          "ant_inf_over_sep_lat": 0.921971996219973
+        }
+      }
+    },
+    "200": {
+      "sigma_mm": 12.731121878715815,
+      "cpu": {
+        "median_s": 10.361968919634819,
+        "min_s": 10.354397749528289,
+        "max_s": 10.372711831703782,
+        "runs_s": [
+          10.361968919634819,
+          10.372711831703782,
+          10.354397749528289
+        ],
+        "warmup_s": 0.20560119673609734,
+        "event_passes_per_s": 3860270.216040148,
+        "lv": {
+          "myo_recovery": 0.943212229758501,
+          "segment_cv_pct": 3.8075065762549283,
+          "ant_inf_over_sep_lat": 0.9710277807614378
+        }
+      }
+    }
+  }
+}

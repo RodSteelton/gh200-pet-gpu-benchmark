@@ -1,0 +1,154 @@
+Thu Nov 12 12:41:11 EST 2026
+udc-ba11-11
+name, memory.total [MiB], driver_version
+NVIDIA B200, 183359 MiB, 595.71.05
+              total        used        free      shared  buff/cache   available
+Mem:           2015          69         495         232        1451        1703
+=== run A: Monte Carlo on the GPU 12:41:11
+[R280_slot P90] devices ['gpu'], 16 CPU threads, x86_64
+  GPU trues: 364.5 M decays/s (median 6.46 s for 10,000,000 trues), warm-up 4.5 s
+  GPU sensitivity: 3.88 M detected events/s (5.18 s)
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_A_R280_slot_P90_udc-ba11-11_20261112_124143.json
+=== run B: OSEM 10 M events, random subsets 12:41:44
+[R280_slot P90] grid (80, 186, 186), 10,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR non-TOF gpu: median 4.51 s (min 4.47, max 5.17), 8.9 M event passes/s, warm-up 1.2 s
+  CTR     320 gpu: median 1.70 s (min 1.67, max 1.73), 23.5 M event passes/s, warm-up 0.0 s
+  CTR     200 gpu: median 1.48 s (min 1.40, max 1.50), 27.0 M event passes/s, warm-up 0.1 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba11-11_20261112_124213.json
+=== run F smoke: 1% activity, makes the sensitivity image 12:42:14
+[R280_slot rest r0] GPU NVIDIA B200
+  sensitivity: generated on GPU, 7.3 s
+  blood_pool        109 mL  5.436e+06 decays
+  myocardium         92 mL  3.102e+06 decays
+  myo_defect          6 mL  1.922e+05 decays
+  soft_tissue     12930 mL  7.101e+07 decays
+  adipose         14202 mL  4.327e+07 decays
+  bone              378 mL  3.394e+06 decays
+  liver            1754 mL  5.587e+07 decays
+  lung             3665 mL  4.622e+07 decays
+  arm              6514 mL  3.577e+07 decays
+  2.643e+08 decays -> 1,369,373 trues in 2.6 s
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 7 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 42 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 56 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 49 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 36 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 27 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 21 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 18 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 15 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 14 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 13 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 23 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 19 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 17 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 16 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 29 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 26 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 30 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  23 frames reconstructed in 2 s
+  MBF normal 1.708 +/- 0.826 (true 1.0), defect 2.504 (true 1.0); old normal 1.014
+  TIMES s: sens 7.3  simulate 2.6  OSEM 2.1  fit+other 1.5  TOTAL 15.1
+[R280_slot stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+06 decays
+  myocardium         92 mL  2.080e+06 decays
+  myo_defect          6 mL  1.162e+05 decays
+  soft_tissue     12930 mL  8.845e+07 decays
+  adipose         14202 mL  2.315e+07 decays
+  bone              378 mL  1.821e+06 decays
+  liver            1754 mL  2.691e+07 decays
+  lung             3665 mL  2.612e+07 decays
+  arm              6514 mL  5.478e+07 decays
+  2.265e+08 decays -> 1,124,922 trues in 1.1 s
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 3 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 32 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 12 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 11 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 25 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 33 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  23 frames reconstructed in 2 s
+  MBF normal 6.948 +/- 1.165 (true 3.0), defect 8.000 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 1.1  OSEM 1.8  fit+other 1.4  TOTAL 4.4
+=== run F: full scan, rest and stress 12:42:35
+[R280_slot rest r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,107,897 trues in 74.7 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.023 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.7  OSEM 19.6  fit+other 27.9  TOTAL 123.6
+[R280_slot stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,527,642 trues in 58.6 s
+  23 frames reconstructed in 25 s
+  MBF normal 3.086 +/- 0.066 (true 3.0), defect 1.556 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.6  OSEM 14.5  fit+other 22.9  TOTAL 96.1
+=== run G: fast mode, replicate 10 12:46:16
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 5.06 s (min 5.06, max 5.06), 79.1 M event passes/s, warm-up 1.0 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba11-11_20261112_124630.json
+=== run G: fast mode, replicate 30 12:46:31
+[R280_slot P90] grid (80, 186, 186), 300,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 14.60 s (min 14.60, max 14.60), 82.2 M event passes/s, warm-up 0.9 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba11-11_20261112_124703.json
+=== run G: fast mode, replicate 100 12:47:03
+[R280_slot P90] grid (80, 186, 186), 1,000,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 48.20 s (min 48.20, max 48.20), 83.0 M event passes/s, warm-up 1.0 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba11-11_20261112_124840.json
+=== run G: fast mode, replicate 300 12:48:40
+[R280_slot P90] grid (80, 186, 186), 3,000,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 143.89 s (min 143.89, max 143.89), 83.4 M event passes/s, warm-up 1.0 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba11-11_20261112_125443.json
+Thu Nov 12 12:54:44 EST 2026

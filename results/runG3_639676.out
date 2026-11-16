@@ -1,0 +1,43 @@
+[2026-11-11T21:43:20.029] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+[2026-11-11T21:43:20.031] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+Wed Nov 11 09:43:20 PM EST 2026
+cdc-v11-31-s
+               total        used        free      shared  buff/cache   available
+Mem:             620          35         602           0           3         585
+=== random subsets, rep 30 (3e8) 21:43:20
+[R280_slot P90] grid (80, 186, 186), 300,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 81.40 s (min 81.40, max 81.40), 14.7 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_214453.json
+=== fast, rep 10 (1e8) 21:44:54
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 1.79 s (min 1.79, max 1.79), 223.9 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_214503.json
+=== fast, rep 30 (3e8) 21:45:04
+[R280_slot P90] grid (80, 186, 186), 300,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 4.11 s (min 4.11, max 4.11), 291.9 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_214520.json
+=== fast, rep 100 (1e9) 21:45:20
+[R280_slot P90] grid (80, 186, 186), 1,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 12.43 s (min 12.43, max 12.43), 321.9 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_214600.json
+=== fast, rep 300 (3e9) 21:46:01
+[R280_slot P90] grid (80, 186, 186), 3,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 36.13 s (min 36.13, max 36.13), 332.2 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_214749.json
+=== fast, 1.5 mm, rep 300 (3e9) 21:47:49
+[R280_slot P90] grid (160, 372, 372), 3,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 78.73 s (min 78.73, max 78.73), 152.4 M event passes/s, warm-up 1.6 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261111_215020.json
+Wed Nov 11 09:50:20 PM EST 2026

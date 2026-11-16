@@ -1,0 +1,92 @@
+{
+  "benchmark": "B, TOF list-mode OSEM",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "grid": [
+    186,
+    186,
+    80
+  ],
+  "voxel_mm": 3.0,
+  "n_events": 10000000,
+  "iters": 4,
+  "subsets": 10,
+  "repeats": 1,
+  "replicate": 1,
+  "inputs": {
+    "sens": "sens_R280_slot_P90_v3.npy",
+    "events": "events_fastmc_R280_slot_P90_10000000.npz",
+    "n_emitted": 2340357701
+  },
+  "generated_inputs_s": {},
+  "env": {
+    "host": "cdc-v11-25-s",
+    "machine": "aarch64",
+    "platform": "Linux-5.14.0-611.5.1.el9_7.aarch64+64k-aarch64-with-glibc2.34",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 72,
+    "numba_threads": 72,
+    "slurm_job": "639677",
+    "slurm_cpus": "72",
+    "slurm_partition": "gpu-gh200-public",
+    "time": "2026-11-11 23:08:53",
+    "scipy": "1.17.1",
+    "cpu_model": "0xd4f",
+    "gpu": "NVIDIA GH200 144G HBM3e",
+    "cuda_simulator": false,
+    "numba_cuda": "0.30.4",
+    "threading_layer": "omp"
+  },
+  "ctr": {
+    "200": {
+      "sigma_mm": 12.731121878715815,
+      "cpu": {
+        "median_s": 8.83241155196447,
+        "min_s": 8.83241155196447,
+        "max_s": 8.83241155196447,
+        "runs_s": [
+          8.83241155196447
+        ],
+        "warmup_s": 11.366013454040512,
+        "event_passes_per_s": 4528774.476219166,
+        "lv": {
+          "myo_recovery": 0.9423527903854847,
+          "segment_cv_pct": 3.8594495331630014,
+          "ant_inf_over_sep_lat": 0.962856585964729
+        }
+      },
+      "gpu": {
+        "median_s": 0.326347770052962,
+        "min_s": 0.326347770052962,
+        "max_s": 0.326347770052962,
+        "runs_s": [
+          0.326347770052962
+        ],
+        "warmup_s": 3.218845985014923,
+        "event_passes_per_s": 122568632.82230645,
+        "lv": {
+          "myo_recovery": 0.9423527680337429,
+          "segment_cv_pct": 3.85945104100911,
+          "ant_inf_over_sep_lat": 0.9628564754388054
+        },
+        "iterations_only_median_s": 0.11051341309212148,
+        "transfer_median_s": 0.21244778390973806,
+        "detail_s": {
+          "perm_s": 6.080372259020805e-07,
+          "gather_s": 0.19650932704098523,
+          "copy_s": 0.008906335919164121
+        },
+        "fast": true
+      },
+      "agreement": {
+        "max_abs_over_max": 7.789432484965539e-06,
+        "rmse_over_mean": 1.442228409957722e-05,
+        "speedup_cpu_over_gpu": 27.064415211205773,
+        "lors_with_different_sample_count": 0
+      }
+    }
+  }
+}

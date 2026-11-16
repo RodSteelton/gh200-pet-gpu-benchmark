@@ -1,0 +1,34 @@
+{
+  "benchmark": "A, fast Monte Carlo",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "env": {
+    "host": "udc-ba05-16c0",
+    "machine": "x86_64",
+    "platform": "Linux-4.18.0-553.124.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 96,
+    "numba_threads": 32,
+    "slurm_job": "22889494",
+    "slurm_cpus": "32",
+    "slurm_partition": "standard-afton",
+    "time": "2026-11-12 18:19:30",
+    "scipy": "1.17.1",
+    "cpu_model": "AMD EPYC 9454 48-Core Processor"
+  },
+  "cpu_trues": {
+    "trues": 1000000,
+    "emissions": 234170194,
+    "seconds": 146.1739740166813,
+    "emissions_per_s": 1601996.4947609387,
+    "acceptance": 0.004270398306968137
+  },
+  "cpu_sens": {
+    "detected": 2312640,
+    "seconds": 14.0689457077533,
+    "detected_per_s": 164379.05497961512
+  }
+}

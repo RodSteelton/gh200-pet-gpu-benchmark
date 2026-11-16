@@ -1,0 +1,61 @@
+{
+  "benchmark": "B, TOF list-mode OSEM",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "grid": [
+    372,
+    372,
+    160
+  ],
+  "voxel_mm": 1.5,
+  "n_events": 1000000000,
+  "iters": 4,
+  "subsets": 10,
+  "repeats": 1,
+  "replicate": 100,
+  "inputs": {
+    "sens": "upsampled from sens_R280_slot_P90_v3.npy",
+    "events": "events_fastmc_R280_slot_P90_10000000.npz",
+    "n_emitted": 2340357701
+  },
+  "generated_inputs_s": {},
+  "env": {
+    "host": "cdc-v11-31-s",
+    "machine": "aarch64",
+    "platform": "Linux-5.14.0-611.5.1.el9_7.aarch64+64k-aarch64-with-glibc2.34",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 72,
+    "numba_threads": 72,
+    "slurm_job": "639675",
+    "slurm_cpus": "72",
+    "slurm_partition": "gpu-gh200-public",
+    "time": "2026-11-11 20:50:43",
+    "scipy": "1.17.1",
+    "cpu_model": "0xd4f",
+    "gpu": "NVIDIA GH200 144G HBM3e",
+    "cuda_simulator": false,
+    "numba_cuda": "0.30.4",
+    "threading_layer": null
+  },
+  "ctr": {
+    "200": {
+      "sigma_mm": 12.731121878715815,
+      "gpu": {
+        "median_s": 284.80833408690523,
+        "min_s": 284.80833408690523,
+        "max_s": 284.80833408690523,
+        "runs_s": [
+          284.80833408690523
+        ],
+        "warmup_s": 1.597589059965685,
+        "event_passes_per_s": 14044532.835824449,
+        "lv": null,
+        "iterations_only_median_s": 25.53768349601887,
+        "transfer_median_s": 211.64567904302385
+      }
+    }
+  }
+}

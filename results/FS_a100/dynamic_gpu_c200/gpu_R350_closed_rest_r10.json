@@ -1,0 +1,26 @@
+{
+  "config": "R350_closed",
+  "state": "rest",
+  "real": 10,
+  "scale": 1.0,
+  "n_decays": 26425642778,
+  "n_trues": 213035978,
+  "mbf_normal_mean": 1.0321783870311403,
+  "mbf_normal_sd": 0.024289502724319633,
+  "mbf_defect": 1.0124683668224326,
+  "true_normal": 1.0,
+  "true_defect": 1.0,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 224.51415553997504,
+    "osem_all_frames": 68.57369431381812,
+    "recon_fit_total": 150.2507806220092,
+    "fit_and_other": 81.67708630819106,
+    "total": 376.0764821480261
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "old_reference": {
+    "normal": 1.014,
+    "trues": 137100000.0
+  }
+}

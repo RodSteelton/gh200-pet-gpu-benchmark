@@ -1,0 +1,87 @@
+Fri Nov 13 03:56:52 PM EST 2026
+cdc-v11-31-s
+dynamic
+events_fastmc_R280_slot_P90_10000000.npz
+motion9
+panels_cr
+sens_R280_slot_P90_backrest_carbon_v3.npy
+=== E motion task 0 15:56:54
+[R280_slot static r0] 6,268,004 trues from 1,521,232,505 decays (x0.65 window) in 104 s
+    iteration 1/8: 5.9 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+  150 ps none    : contrast 0.217 / corrected 0.177 (true 0.200), recovery 0.957, remote CV 3.4%, false 0.047
+E task 0 seconds 150
+=== E motion task 5 15:59:24
+[R280_slot exercise r0] 6,255,239 trues from 1,521,232,505 decays (x0.65 window) in 101 s
+    iteration 1/8: 5.8 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 1.3 s
+    iteration 2/8: 1.3 s
+    iteration 3/8: 1.4 s
+    iteration 4/8: 1.3 s
+    iteration 5/8: 1.3 s
+    iteration 6/8: 1.4 s
+    iteration 7/8: 1.3 s
+    iteration 8/8: 1.3 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+  150 ps none    : contrast 0.048 / corrected 0.001 (true 0.200), recovery 0.751, remote CV 9.0%, false 0.188
+  150 ps gated   : contrast 0.217 / corrected 0.178 (true 0.200), recovery 0.864, remote CV 3.2%, false 0.061
+  150 ps mc_data : contrast 0.193 / corrected 0.153 (true 0.200), recovery 0.888, remote CV 5.3%, false 0.079, motion RMS 1.4/1.4/1.7 mm
+  150 ps cam_good: contrast 0.221 / corrected 0.182 (true 0.200), recovery 0.942, remote CV 5.7%, false 0.072, motion RMS 0.3/0.3/0.5 mm
+  150 ps cam_poor: contrast 0.158 / corrected 0.116 (true 0.200), recovery 0.895, remote CV 5.7%, false 0.071, motion RMS 0.6/0.6/2.6 mm
+  150 ps hybrid  : contrast 0.192 / corrected 0.152 (true 0.200), recovery 0.918, remote CV 5.5%, false 0.072, motion RMS 0.6/0.5/1.5 mm
+  150 ps mc_true : contrast 0.176 / corrected 0.135 (true 0.200), recovery 0.975, remote CV 4.1%, false 0.058
+E task 5 seconds 258
+Fri Nov 13 04:03:42 PM EST 2026
+ALL DONE

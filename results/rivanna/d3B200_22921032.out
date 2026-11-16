@@ -1,0 +1,28 @@
+name, driver_version
+NVIDIA B200, 595.71.05
+/scratch/USER/neo_bench_rivanna/env/bin/nvcc
+Cuda compilation tools, release 13.5, V13.5.37
+Build cuda_13.5.r13.5/compiler.39125733_0
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+{
+ "device": "NVIDIA B200",
+ "cc": [
+  10,
+  0
+ ],
+ "numba": "0.68.1",
+ "numba_cuda": "0.30.4",
+ "n_atom_lines": 16,
+ "unique_forms": [
+  "atom.global.add.f# \t#, #, #;"
+ ],
+ "sample": [
+  "atom.global.add.f32 \t%f42, [%rd121], %f41;",
+  "atom.global.add.f32 \t%f44, [%rd126], %f43;",
+  "atom.global.add.f32 \t%f46, [%rd132], %f45;",
+  "atom.global.add.f32 \t%f48, [%rd137], %f47;",
+  "atom.global.add.f32 \t%f50, [%rd144], %f49;",
+  "atom.global.add.f32 \t%f52, [%rd149], %f51;"
+ ]
+}

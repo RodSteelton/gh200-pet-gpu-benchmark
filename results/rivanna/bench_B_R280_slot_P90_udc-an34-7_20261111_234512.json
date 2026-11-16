@@ -1,0 +1,71 @@
+{
+  "benchmark": "B, TOF list-mode OSEM",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "grid": [
+    186,
+    186,
+    80
+  ],
+  "voxel_mm": 3.0,
+  "n_events": 100000000,
+  "iters": 4,
+  "subsets": 10,
+  "repeats": 1,
+  "replicate": 10,
+  "inputs": {
+    "sens": "sens_R280_slot_P90_v3.npy",
+    "events": "events_fastmc_R280_slot_P90_10000000.npz",
+    "n_emitted": 2338414321
+  },
+  "generated_inputs_s": {},
+  "env": {
+    "host": "udc-an34-7",
+    "machine": "x86_64",
+    "platform": "Linux-4.18.0-553.124.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 128,
+    "numba_threads": 16,
+    "slurm_job": "22860242",
+    "slurm_cpus": "16",
+    "slurm_partition": "gpu-a100-80",
+    "time": "2026-11-11 23:45:04",
+    "scipy": "1.17.1",
+    "cpu_model": "AMD EPYC 7742 64-Core Processor",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "cuda_simulator": false,
+    "numba_cuda": "0.30.4",
+    "threading_layer": null
+  },
+  "ctr": {
+    "200": {
+      "sigma_mm": 12.731121878715815,
+      "gpu": {
+        "median_s": 3.4118574710009852,
+        "min_s": 3.4118574710009852,
+        "max_s": 3.4118574710009852,
+        "runs_s": [
+          3.4118574710009852
+        ],
+        "warmup_s": 1.1860293480021937,
+        "event_passes_per_s": 117238191.63015807,
+        "lv": {
+          "myo_recovery": 0.9479807540774345,
+          "segment_cv_pct": 4.095614178488514,
+          "ant_inf_over_sep_lat": 0.9298774824339264
+        },
+        "iterations_only_median_s": 1.8326859240005433,
+        "transfer_median_s": 1.5459458449986414,
+        "detail_s": {
+          "perm_s": 2.0099832909181714e-07,
+          "gather_s": 1.2769049940070545,
+          "copy_s": 0.18200592499488266
+        },
+        "fast": true
+      }
+    }
+  }
+}

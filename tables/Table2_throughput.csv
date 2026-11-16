@@ -1,0 +1,4 @@
+system,scans,sum_total_s_all_scans,mean_total_s_open_ring_200ps,node_hours_compute
+GH200,120,20760,123.8,5.77
+A100,120,34602,201.6,9.61
+B200,120,19283,112.4,5.36

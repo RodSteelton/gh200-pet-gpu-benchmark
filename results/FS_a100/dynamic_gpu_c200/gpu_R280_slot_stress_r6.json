@@ -1,0 +1,27 @@
+{
+  "config": "R280_slot",
+  "state": "stress",
+  "real": 6,
+  "scale": 1.0,
+  "n_decays": 22646376212,
+  "n_trues": 112515976,
+  "mbf_normal_mean": 3.082222429313718,
+  "mbf_normal_sd": 0.04881864912992216,
+  "mbf_defect": 1.5297918604739524,
+  "true_normal": 3.0,
+  "true_defect": 1.5,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 114.28089006897062,
+    "osem_all_frames": 34.04175106686307,
+    "recon_fit_total": 74.48184289096389,
+    "fit_and_other": 40.44009182410082,
+    "total": 188.95579260098748
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "old_reference": {
+    "normal": 3.122,
+    "defect": 1.591,
+    "trues": 112500000.0
+  }
+}

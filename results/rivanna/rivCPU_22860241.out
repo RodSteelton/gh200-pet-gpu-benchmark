@@ -1,0 +1,9 @@
+Thu Nov 12 02:00:39 EST 2026
+udc-ba06-3c1
+Model name:          AMD EPYC 9454 48-Core Processor
+[R280_slot P90] grid (80, 186, 186), 10,000,000 events, OSEM 4x10, devices ['cpu'], 32 CPU threads, x86_64
+  CTR non-TOF cpu: median 17.41 s (min 17.18, max 17.79), 2.3 M event passes/s, warm-up 3.5 s
+  CTR     320 cpu: median 11.16 s (min 11.15, max 11.17), 3.6 M event passes/s, warm-up 0.2 s
+  CTR     200 cpu: median 10.36 s (min 10.35, max 10.37), 3.9 M event passes/s, warm-up 0.2 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-ba06-3c1_20261112_020243.json
+Thu Nov 12 02:02:43 EST 2026

@@ -1,0 +1,45 @@
+{
+  "benchmark": "A, fast Monte Carlo",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "env": {
+    "host": "udc-ba11-11",
+    "machine": "x86_64",
+    "platform": "Linux-4.18.0-553.124.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 120,
+    "numba_threads": 16,
+    "slurm_job": "22889491",
+    "slurm_cpus": "16",
+    "slurm_partition": "gpu-b200",
+    "time": "2026-11-12 12:41:13",
+    "scipy": "1.17.1",
+    "cpu_model": "INTEL(R) XEON(R) PLATINUM 8580",
+    "gpu": "NVIDIA B200",
+    "cuda_simulator": false,
+    "numba_cuda": "0.30.4"
+  },
+  "gpu_warmup_s": 4.513306458946317,
+  "gpu_trues": {
+    "trues": 10058785,
+    "emissions": 2353790976,
+    "seconds_median": 6.4579114590305835,
+    "seconds_runs": [
+      6.47097681905143,
+      6.4579114590305835,
+      6.431417043786496
+    ],
+    "emissions_per_s": 364481766.4244246,
+    "acceptance": 0.004273440208821669,
+    "threads": 262144,
+    "rounds": 4
+  },
+  "gpu_sens": {
+    "detected": 20098088,
+    "seconds": 5.181517008924857,
+    "detected_per_s": 3878803.8262505424
+  }
+}

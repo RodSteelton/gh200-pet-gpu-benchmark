@@ -1,0 +1,29 @@
+Thu Nov 12 08:47:40 PM EST 2026
+cdc-v11-31-s
+               total        used        free      shared  buff/cache   available
+Mem:             620          41         596           0           3         578
+=== fast, replicate 400 (4000 M events) 20:47:40
+[R280_slot P90] grid (80, 186, 186), 4,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 54.09 s (min 54.09, max 54.09), 295.8 M event passes/s, warm-up 7.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261112_205105.json
+               total        used        free      shared  buff/cache   available
+Mem:             620          41         595           0           4         578
+=== fast, replicate 480 (4800 M events) 20:51:06
+[R280_slot P90] grid (80, 186, 186), 4,800,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 57.72 s (min 57.72, max 57.72), 332.6 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261112_205355.json
+               total        used        free      shared  buff/cache   available
+Mem:             620          41         595           0           4         578
+=== fast, replicate 520 (5200 M events) 20:53:56
+[R280_slot P90] grid (80, 186, 186), 5,200,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 64.27 s (min 64.27, max 64.27), 323.7 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-31-s_20261112_205701.json
+               total        used        free      shared  buff/cache   available
+Mem:             620          42         595           0           4         578
+Thu Nov 12 08:57:01 PM EST 2026

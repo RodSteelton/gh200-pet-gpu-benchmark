@@ -1,0 +1,393 @@
+Fri Nov 13 12:59:31 PM EST 2026
+cdc-v11-31-s
+CPU(s):                                  72
+Model name:                              Neoverse-V2
+CPU(s) scaling MHz:                      100%
+               total        used        free      shared  buff/cache   available
+Mem:             620          43         594           0           3         576
+numpy 2.4.6 numba 0.68.1 scipy 1.17.1
+=== D dynamic task 0 12:59:52
+  blood_pool        109 mL  5.432e+08 decays in 240 s  (11 chunks)
+  myocardium         92 mL  3.103e+08 decays in 240 s  (7 chunks)
+  myo_defect          6 mL  1.925e+07 decays in 240 s  (1 chunks)
+  soft_tissue     12930 mL  7.101e+09 decays in 240 s  (30 chunks)
+  adipose         14202 mL  4.326e+09 decays in 240 s  (30 chunks)
+  bone              378 mL  3.392e+08 decays in 240 s  (7 chunks)
+  liver            1754 mL  5.587e+09 decays in 240 s  (30 chunks)
+  lung             3665 mL  4.622e+09 decays in 240 s  (30 chunks)
+  arm              6514 mL  3.578e+09 decays in 240 s  (30 chunks)
+[R280_slot rest r0] 2.643e+10 decays -> 137,109,608 trues in 1157 s
+    iteration 1/4: 3.8 s
+    iteration 2/4: 0.6 s
+    iteration 3/4: 0.6 s
+    iteration 4/4: 0.6 s
+    iteration 1/4: 4.6 s
+    iteration 2/4: 4.6 s
+    iteration 3/4: 4.6 s
+    iteration 4/4: 4.6 s
+    iteration 1/4: 6.3 s
+    iteration 2/4: 6.3 s
+    iteration 3/4: 6.3 s
+    iteration 4/4: 6.2 s
+    iteration 1/4: 5.4 s
+    iteration 2/4: 5.4 s
+    iteration 3/4: 5.4 s
+    iteration 4/4: 5.4 s
+    iteration 1/4: 4.1 s
+    iteration 2/4: 4.1 s
+    iteration 3/4: 4.1 s
+    iteration 4/4: 4.1 s
+    iteration 1/4: 3.0 s
+    iteration 2/4: 3.0 s
+    iteration 3/4: 3.0 s
+    iteration 4/4: 3.0 s
+    iteration 1/4: 2.3 s
+    iteration 2/4: 2.3 s
+    iteration 3/4: 2.3 s
+    iteration 4/4: 2.3 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.6 s
+    iteration 2/4: 1.6 s
+    iteration 3/4: 1.6 s
+    iteration 4/4: 1.6 s
+    iteration 1/4: 1.4 s
+    iteration 2/4: 1.4 s
+    iteration 3/4: 1.4 s
+    iteration 4/4: 1.4 s
+    iteration 1/4: 1.3 s
+    iteration 2/4: 1.3 s
+    iteration 3/4: 1.3 s
+    iteration 4/4: 1.3 s
+    iteration 1/4: 2.5 s
+    iteration 2/4: 2.5 s
+    iteration 3/4: 2.5 s
+    iteration 4/4: 2.5 s
+    iteration 1/4: 2.3 s
+    iteration 2/4: 2.3 s
+    iteration 3/4: 2.3 s
+    iteration 4/4: 2.3 s
+    iteration 1/4: 2.1 s
+    iteration 2/4: 2.1 s
+    iteration 3/4: 2.1 s
+    iteration 4/4: 2.1 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.8 s
+    iteration 2/4: 1.8 s
+    iteration 3/4: 1.8 s
+    iteration 4/4: 1.8 s
+    iteration 1/4: 1.7 s
+    iteration 2/4: 1.7 s
+    iteration 3/4: 1.7 s
+    iteration 4/4: 1.7 s
+    iteration 1/4: 3.2 s
+    iteration 2/4: 3.2 s
+    iteration 3/4: 3.3 s
+    iteration 4/4: 3.2 s
+    iteration 1/4: 2.9 s
+    iteration 2/4: 2.9 s
+    iteration 3/4: 2.9 s
+    iteration 4/4: 2.9 s
+    iteration 1/4: 2.6 s
+    iteration 2/4: 2.6 s
+    iteration 3/4: 2.6 s
+    iteration 4/4: 2.6 s
+    iteration 1/4: 3.4 s
+    iteration 2/4: 3.4 s
+    iteration 3/4: 3.4 s
+    iteration 4/4: 3.4 s
+    iteration 1/4: 2.9 s
+    iteration 2/4: 2.9 s
+    iteration 3/4: 2.9 s
+    iteration 4/4: 2.9 s
+  23 frames reconstructed in 254 s
+  MBF normal 1.01 +/- 0.02 (true 1.0), defect 0.99 (true 1.0)
+D task 0 seconds 1441
+=== D dynamic task 5 13:23:53
+  blood_pool        109 mL  3.026e+08 decays in 240 s  (7 chunks)
+  myocardium         92 mL  2.079e+08 decays in 240 s  (5 chunks)
+  myo_defect          6 mL  1.160e+07 decays in 240 s  (1 chunks)
+  soft_tissue     12930 mL  8.845e+09 decays in 240 s  (30 chunks)
+  adipose         14202 mL  2.316e+09 decays in 240 s  (30 chunks)
+  bone              378 mL  1.821e+08 decays in 240 s  (4 chunks)
+  liver            1754 mL  2.691e+09 decays in 240 s  (30 chunks)
+  lung             3665 mL  2.613e+09 decays in 240 s  (30 chunks)
+  arm              6514 mL  5.478e+09 decays in 240 s  (30 chunks)
+[R280_slot stress r0] 2.265e+10 decays -> 112,507,613 trues in 984 s
+    iteration 1/4: 3.5 s
+    iteration 2/4: 0.3 s
+    iteration 3/4: 0.3 s
+    iteration 4/4: 0.3 s
+    iteration 1/4: 3.5 s
+    iteration 2/4: 3.5 s
+    iteration 3/4: 3.5 s
+    iteration 4/4: 3.5 s
+    iteration 1/4: 3.6 s
+    iteration 2/4: 3.6 s
+    iteration 3/4: 3.6 s
+    iteration 4/4: 3.6 s
+    iteration 1/4: 2.5 s
+    iteration 2/4: 2.5 s
+    iteration 3/4: 2.5 s
+    iteration 4/4: 2.5 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.6 s
+    iteration 2/4: 1.6 s
+    iteration 3/4: 1.6 s
+    iteration 4/4: 1.6 s
+    iteration 1/4: 1.4 s
+    iteration 2/4: 1.4 s
+    iteration 3/4: 1.4 s
+    iteration 4/4: 1.4 s
+    iteration 1/4: 1.3 s
+    iteration 2/4: 1.3 s
+    iteration 3/4: 1.3 s
+    iteration 4/4: 1.3 s
+    iteration 1/4: 1.2 s
+    iteration 2/4: 1.2 s
+    iteration 3/4: 1.2 s
+    iteration 4/4: 1.2 s
+    iteration 1/4: 1.2 s
+    iteration 2/4: 1.2 s
+    iteration 3/4: 1.2 s
+    iteration 4/4: 1.2 s
+    iteration 1/4: 1.1 s
+    iteration 2/4: 1.1 s
+    iteration 3/4: 1.1 s
+    iteration 4/4: 1.1 s
+    iteration 1/4: 1.1 s
+    iteration 2/4: 1.1 s
+    iteration 3/4: 1.1 s
+    iteration 4/4: 1.1 s
+    iteration 1/4: 2.2 s
+    iteration 2/4: 2.2 s
+    iteration 3/4: 2.2 s
+    iteration 4/4: 2.2 s
+    iteration 1/4: 2.1 s
+    iteration 2/4: 2.1 s
+    iteration 3/4: 2.1 s
+    iteration 4/4: 2.1 s
+    iteration 1/4: 2.0 s
+    iteration 2/4: 2.0 s
+    iteration 3/4: 2.0 s
+    iteration 4/4: 2.0 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.8 s
+    iteration 2/4: 1.8 s
+    iteration 3/4: 1.8 s
+    iteration 4/4: 1.8 s
+    iteration 1/4: 1.7 s
+    iteration 2/4: 1.7 s
+    iteration 3/4: 1.7 s
+    iteration 4/4: 1.7 s
+    iteration 1/4: 3.4 s
+    iteration 2/4: 3.4 s
+    iteration 3/4: 3.4 s
+    iteration 4/4: 3.4 s
+    iteration 1/4: 3.1 s
+    iteration 2/4: 3.1 s
+    iteration 3/4: 3.1 s
+    iteration 4/4: 3.1 s
+    iteration 1/4: 2.8 s
+    iteration 2/4: 2.8 s
+    iteration 3/4: 2.8 s
+    iteration 4/4: 2.8 s
+    iteration 1/4: 3.7 s
+    iteration 2/4: 3.7 s
+    iteration 3/4: 3.7 s
+    iteration 4/4: 3.7 s
+    iteration 1/4: 3.2 s
+    iteration 2/4: 3.2 s
+    iteration 3/4: 3.2 s
+    iteration 4/4: 3.2 s
+  23 frames reconstructed in 207 s
+  MBF normal 3.13 +/- 0.07 (true 3.0), defect 1.59 (true 1.5)
+D task 5 seconds 1206
+=== E prep 0 13:43:59
+[R280_slot] sensitivity loaded: sens_R280_slot_P90_backrest_carbon_v3.npy
+[R280_slot] 50,000,000 uniform-LV trues in 603 s
+    iteration 1/8: 25.8 s
+    iteration 2/8: 22.6 s
+    iteration 3/8: 22.7 s
+    iteration 4/8: 22.6 s
+    iteration 5/8: 22.6 s
+    iteration 6/8: 22.7 s
+    iteration 7/8: 22.6 s
+    iteration 8/8: 22.6 s
+[R280_slot] calibration saved
+E prep seconds 793
+=== E motion task 0 13:57:12
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 510, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 496, in main
+    run_task(recon_dir, out, c, s, r, a.iters, a.subsets, a.seed)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 222, in run_task
+    ref = np.load(recon_dir / f"events_fastmc_R280_slot_{BODY}_{int(C.FASTMC_TRUES)}.npz")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/sfs/ceph/hachi/standard/ivy-hip-monte/recon_CDE_grace/events_fastmc_R280_slot_P90_10000000.npz'
+FAILED E task 0
+E task 0 seconds 2
+=== E motion task 5 13:57:14
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 510, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 496, in main
+    run_task(recon_dir, out, c, s, r, a.iters, a.subsets, a.seed)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/motion_panels.py", line 222, in run_task
+    ref = np.load(recon_dir / f"events_fastmc_R280_slot_{BODY}_{int(C.FASTMC_TRUES)}.npz")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/sfs/ceph/hachi/standard/ivy-hip-monte/recon_CDE_grace/events_fastmc_R280_slot_P90_10000000.npz'
+FAILED E task 5
+E task 5 seconds 2
+C: 8 count-rate tasks
+=== C count-rate task 0 13:57:18
+[R280_slot] blood_pool   1.00e+08 decays: singles/decay 0.1052, trues/decay 0.00682 (8 s)
+[R280_slot] myocardium   1.00e+08 decays: singles/decay 0.1155, trues/decay 0.00727 (17 s)
+[R280_slot] myo_defect   1.00e+08 decays: singles/decay 0.1170, trues/decay 0.00666 (24 s)
+[R280_slot] soft_tissue  1.00e+08 decays: singles/decay 0.1298, trues/decay 0.00410 (36 s)
+[R280_slot] adipose      1.00e+08 decays: singles/decay 0.2600, trues/decay 0.00783 (48 s)
+[R280_slot] bone         1.00e+08 decays: singles/decay 0.1201, trues/decay 0.00297 (59 s)
+[R280_slot] liver        1.00e+08 decays: singles/decay 0.0826, trues/decay 0.00113 (68 s)
+[R280_slot] lung         1.00e+08 decays: singles/decay 0.1450, trues/decay 0.00942 (78 s)
+[R280_slot] arm          1.00e+08 decays: singles/decay 0.0699, trues/decay 0.00478 (84 s)
+[R280_slot] abdomen      1.00e+08 decays: singles/decay 0.0415, trues/decay 0.00000 (90 s)
+[R280_slot] head_neck    1.00e+08 decays: singles/decay 0.0586, trues/decay 0.00000 (97 s)
+wrote tables_R280_slot.npz
+C task 0 seconds 99
+=== C count-rate task 1 13:58:58
+[R350_closed] blood_pool   1.00e+08 decays: singles/decay 0.1013, trues/decay 0.00672 (9 s)
+[R350_closed] myocardium   1.00e+08 decays: singles/decay 0.1100, trues/decay 0.00706 (18 s)
+[R350_closed] myo_defect   1.00e+08 decays: singles/decay 0.1089, trues/decay 0.00685 (26 s)
+[R350_closed] soft_tissue  1.00e+08 decays: singles/decay 0.1240, trues/decay 0.00383 (39 s)
+[R350_closed] adipose      1.00e+08 decays: singles/decay 0.2380, trues/decay 0.00747 (52 s)
+[R350_closed] bone         1.00e+08 decays: singles/decay 0.1075, trues/decay 0.00293 (63 s)
+[R350_closed] liver        1.00e+08 decays: singles/decay 0.0823, trues/decay 0.00098 (73 s)
+[R350_closed] lung         1.00e+08 decays: singles/decay 0.1395, trues/decay 0.00856 (83 s)
+[R350_closed] arm          1.00e+08 decays: singles/decay 0.4053, trues/decay 0.02834 (91 s)
+[R350_closed] abdomen      1.00e+08 decays: singles/decay 0.0580, trues/decay 0.00000 (99 s)
+[R350_closed] head_neck    1.00e+08 decays: singles/decay 0.0823, trues/decay 0.00000 (106 s)
+wrote tables_R350_closed.npz
+C task 1 seconds 108
+=== C count-rate task 2 14:00:47
+[P2_AP40] blood_pool   1.00e+08 decays: singles/decay 0.0837, trues/decay 0.00571 (8 s)
+[P2_AP40] myocardium   1.00e+08 decays: singles/decay 0.0955, trues/decay 0.00671 (15 s)
+[P2_AP40] myo_defect   1.00e+08 decays: singles/decay 0.1055, trues/decay 0.00537 (22 s)
+[P2_AP40] soft_tissue  1.00e+08 decays: singles/decay 0.1000, trues/decay 0.00281 (33 s)
+[P2_AP40] adipose      1.00e+08 decays: singles/decay 0.1986, trues/decay 0.00290 (44 s)
+[P2_AP40] bone         1.00e+08 decays: singles/decay 0.1180, trues/decay 0.00238 (54 s)
+[P2_AP40] liver        1.00e+08 decays: singles/decay 0.0554, trues/decay 0.00080 (61 s)
+[P2_AP40] lung         1.00e+08 decays: singles/decay 0.1024, trues/decay 0.00711 (71 s)
+[P2_AP40] arm          1.00e+08 decays: singles/decay 0.0651, trues/decay 0.00002 (77 s)
+[P2_AP40] abdomen      1.00e+08 decays: singles/decay 0.0196, trues/decay 0.00000 (83 s)
+[P2_AP40] head_neck    1.00e+08 decays: singles/decay 0.0274, trues/decay 0.00000 (88 s)
+wrote tables_P2_AP40.npz
+C task 2 seconds 91
+=== C count-rate task 3 14:02:18
+[P4_eq] blood_pool   1.00e+08 decays: singles/decay 0.1271, trues/decay 0.00887 (9 s)
+[P4_eq] myocardium   1.00e+08 decays: singles/decay 0.1401, trues/decay 0.00937 (18 s)
+[P4_eq] myo_defect   1.00e+08 decays: singles/decay 0.1416, trues/decay 0.00851 (27 s)
+[P4_eq] soft_tissue  1.00e+08 decays: singles/decay 0.1547, trues/decay 0.00544 (39 s)
+[P4_eq] adipose      1.00e+08 decays: singles/decay 0.3188, trues/decay 0.01109 (52 s)
+[P4_eq] bone         1.00e+08 decays: singles/decay 0.1411, trues/decay 0.00390 (64 s)
+[P4_eq] liver        1.00e+08 decays: singles/decay 0.0963, trues/decay 0.00152 (73 s)
+[P4_eq] lung         1.00e+08 decays: singles/decay 0.1757, trues/decay 0.01235 (84 s)
+[P4_eq] arm          1.00e+08 decays: singles/decay 0.1300, trues/decay 0.00682 (91 s)
+[P4_eq] abdomen      1.00e+08 decays: singles/decay 0.0345, trues/decay 0.00000 (98 s)
+[P4_eq] head_neck    1.00e+08 decays: singles/decay 0.0494, trues/decay 0.00000 (105 s)
+wrote tables_P4_eq.npz
+C task 3 seconds 108
+=== C count-rate task 4 14:04:06
+[P2_T20A30] blood_pool   1.00e+08 decays: singles/decay 0.0591, trues/decay 0.00370 (7 s)
+[P2_T20A30] myocardium   1.00e+08 decays: singles/decay 0.0682, trues/decay 0.00443 (14 s)
+[P2_T20A30] myo_defect   1.00e+08 decays: singles/decay 0.0792, trues/decay 0.00346 (21 s)
+[P2_T20A30] soft_tissue  1.00e+08 decays: singles/decay 0.0697, trues/decay 0.00124 (31 s)
+[P2_T20A30] adipose      1.00e+08 decays: singles/decay 0.1357, trues/decay 0.00081 (42 s)
+[P2_T20A30] bone         1.00e+08 decays: singles/decay 0.0970, trues/decay 0.00157 (51 s)
+[P2_T20A30] liver        1.00e+08 decays: singles/decay 0.0357, trues/decay 0.00036 (58 s)
+[P2_T20A30] lung         1.00e+08 decays: singles/decay 0.0638, trues/decay 0.00223 (67 s)
+[P2_T20A30] arm          1.00e+08 decays: singles/decay 0.0239, trues/decay 0.00000 (73 s)
+[P2_T20A30] abdomen      1.00e+08 decays: singles/decay 0.0154, trues/decay 0.00000 (78 s)
+[P2_T20A30] head_neck    1.00e+08 decays: singles/decay 0.0230, trues/decay 0.00000 (84 s)
+wrote tables_P2_T20A30.npz
+C task 4 seconds 86
+=== C count-rate task 5 14:05:33
+[P2_T30A20] blood_pool   1.00e+08 decays: singles/decay 0.0620, trues/decay 0.00403 (7 s)
+[P2_T30A20] myocardium   1.00e+08 decays: singles/decay 0.0712, trues/decay 0.00474 (14 s)
+[P2_T30A20] myo_defect   1.00e+08 decays: singles/decay 0.0817, trues/decay 0.00379 (21 s)
+[P2_T30A20] soft_tissue  1.00e+08 decays: singles/decay 0.0707, trues/decay 0.00132 (31 s)
+[P2_T30A20] adipose      1.00e+08 decays: singles/decay 0.1395, trues/decay 0.00105 (41 s)
+[P2_T30A20] bone         1.00e+08 decays: singles/decay 0.0904, trues/decay 0.00128 (51 s)
+[P2_T30A20] liver        1.00e+08 decays: singles/decay 0.0364, trues/decay 0.00021 (58 s)
+[P2_T30A20] lung         1.00e+08 decays: singles/decay 0.0705, trues/decay 0.00333 (67 s)
+[P2_T30A20] arm          1.00e+08 decays: singles/decay 0.0331, trues/decay 0.00000 (72 s)
+[P2_T30A20] abdomen      1.00e+08 decays: singles/decay 0.0113, trues/decay 0.00000 (78 s)
+[P2_T30A20] head_neck    1.00e+08 decays: singles/decay 0.0158, trues/decay 0.00000 (84 s)
+wrote tables_P2_T30A20.npz
+C task 5 seconds 86
+=== C count-rate task 6 14:06:59
+[P4_T20A30] blood_pool   1.00e+08 decays: singles/decay 0.1026, trues/decay 0.00660 (9 s)
+[P4_T20A30] myocardium   1.00e+08 decays: singles/decay 0.1150, trues/decay 0.00741 (17 s)
+[P4_T20A30] myo_defect   1.00e+08 decays: singles/decay 0.1259, trues/decay 0.00626 (25 s)
+[P4_T20A30] soft_tissue  1.00e+08 decays: singles/decay 0.1305, trues/decay 0.00463 (38 s)
+[P4_T20A30] adipose      1.00e+08 decays: singles/decay 0.2614, trues/decay 0.00402 (50 s)
+[P4_T20A30] bone         1.00e+08 decays: singles/decay 0.1475, trues/decay 0.00356 (61 s)
+[P4_T20A30] liver        1.00e+08 decays: singles/decay 0.0817, trues/decay 0.00246 (70 s)
+[P4_T20A30] lung         1.00e+08 decays: singles/decay 0.1354, trues/decay 0.01088 (80 s)
+[P4_T20A30] arm          1.00e+08 decays: singles/decay 0.0485, trues/decay 0.00000 (87 s)
+[P4_T20A30] abdomen      1.00e+08 decays: singles/decay 0.0311, trues/decay 0.00000 (93 s)
+[P4_T20A30] head_neck    1.00e+08 decays: singles/decay 0.0465, trues/decay 0.00000 (100 s)
+wrote tables_P4_T20A30.npz
+C task 6 seconds 102
+=== C count-rate task 7 14:08:42
+[P4_T30A20] blood_pool   1.00e+08 decays: singles/decay 0.1057, trues/decay 0.00713 (9 s)
+[P4_T30A20] myocardium   1.00e+08 decays: singles/decay 0.1171, trues/decay 0.00758 (17 s)
+[P4_T30A20] myo_defect   1.00e+08 decays: singles/decay 0.1205, trues/decay 0.00694 (25 s)
+[P4_T30A20] soft_tissue  1.00e+08 decays: singles/decay 0.1264, trues/decay 0.00376 (37 s)
+[P4_T30A20] adipose      1.00e+08 decays: singles/decay 0.2603, trues/decay 0.00706 (49 s)
+[P4_T30A20] bone         1.00e+08 decays: singles/decay 0.1208, trues/decay 0.00273 (60 s)
+[P4_T30A20] liver        1.00e+08 decays: singles/decay 0.0766, trues/decay 0.00070 (69 s)
+[P4_T30A20] lung         1.00e+08 decays: singles/decay 0.1443, trues/decay 0.00933 (79 s)
+[P4_T30A20] arm          1.00e+08 decays: singles/decay 0.0794, trues/decay 0.00122 (86 s)
+[P4_T30A20] abdomen      1.00e+08 decays: singles/decay 0.0237, trues/decay 0.00000 (92 s)
+[P4_T30A20] head_neck    1.00e+08 decays: singles/decay 0.0337, trues/decay 0.00000 (99 s)
+wrote tables_P4_T30A20.npz
+C task 7 seconds 101
+Stage 8b count rates, 15O-water 400 MBq, 240 s, non-TOF NEC (k = 1), SF 0.35, block dead time 200 ns, body-scatter singles x1.4
+config       state  win ns  trues M randoms M   NEC M  NEC/T peak R/T min live
+R280_slot    rest     3.00    129.6     548.6    26.9  0.197    219.8    0.929
+R350_closed  rest     3.44    203.7    1183.5    34.9  0.164    644.8    0.941
+P2_AP40      rest     2.98     71.5     184.8    19.5  0.256     72.1    0.926
+P4_eq        rest     3.00    175.5     630.7    39.7  0.214    238.0    0.926
+P2_T20A30    rest     2.74     26.8      84.9     6.5  0.228     26.9    0.912
+P2_T30A20    rest     2.72     32.6      69.2     9.8  0.282     26.7    0.929
+P4_T20A30    rest     2.82    113.9     362.0    27.8  0.228    114.3    0.914
+P4_T30A20    rest     2.86    109.3     330.7    27.2  0.235    126.8    0.929
+R280_slot    stress   3.00    109.4     179.3    36.2  0.322    219.8    0.961
+R350_closed  stress   3.44    229.7     508.3    65.3  0.277    644.8    0.968
+P2_AP40      stress   2.98     54.3      69.3    20.0  0.358     72.1    0.959
+P4_eq        stress   3.00    148.4     238.3    49.4  0.323    238.0    0.959
+P2_T20A30    stress   2.74     21.3      29.4     7.6  0.345     26.9    0.952
+P2_T30A20    stress   2.72     25.1      26.3    10.0  0.385     26.7    0.961
+P4_T20A30    stress   2.82     86.8     122.7    30.7  0.343    114.3    0.953
+P4_T30A20    stress   2.86     84.3     124.5    29.1  0.335    126.8    0.961
+total seconds 4239
+Fri Nov 13 02:10:31 PM EST 2026
+ALL DONE

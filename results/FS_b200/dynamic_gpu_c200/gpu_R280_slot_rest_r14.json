@@ -1,0 +1,26 @@
+{
+  "config": "R280_slot",
+  "state": "rest",
+  "real": 14,
+  "scale": 1.0,
+  "n_decays": 26425583084,
+  "n_trues": 137092695,
+  "mbf_normal_mean": 1.0215959324480284,
+  "mbf_normal_sd": 0.018287979766623576,
+  "mbf_defect": 1.0413976964114031,
+  "true_normal": 1.0,
+  "true_defect": 1.0,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 75.15589648298919,
+    "osem_all_frames": 20.80257478915155,
+    "recon_fit_total": 52.30054206494242,
+    "fit_and_other": 31.49796727579087,
+    "total": 128.8586341892369
+  },
+  "gpu": "NVIDIA B200",
+  "old_reference": {
+    "normal": 1.014,
+    "trues": 137100000.0
+  }
+}

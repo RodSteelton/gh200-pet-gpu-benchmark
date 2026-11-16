@@ -1,0 +1,26 @@
+{
+  "config": "R350_closed",
+  "state": "rest",
+  "real": 16,
+  "scale": 1.0,
+  "n_decays": 26425750264,
+  "n_trues": 213049673,
+  "mbf_normal_mean": 1.0216062606769079,
+  "mbf_normal_sd": 0.018512666936092406,
+  "mbf_defect": 1.031467649690227,
+  "true_normal": 1.0,
+  "true_defect": 1.0,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 131.70640680892393,
+    "osem_all_frames": 49.08450022165198,
+    "recon_fit_total": 84.85893248498905,
+    "fit_and_other": 35.774432263337076,
+    "total": 218.2840111629339
+  },
+  "gpu": "NVIDIA GH200 144G HBM3e",
+  "old_reference": {
+    "normal": 1.014,
+    "trues": 137100000.0
+  }
+}

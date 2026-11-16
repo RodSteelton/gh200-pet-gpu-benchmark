@@ -1,0 +1,1868 @@
+Fri Nov 13 17:51:52 EST 2026
+udc-ba11-3
+name, memory.total [MiB], driver_version
+NVIDIA B200, 183359 MiB, 595.71.05
+              total        used        free      shared  buff/cache   available
+Mem:           2015          64         131          35        1818        1904
+=== real 0 R280_slot 200 ps 17:51:52
+[R280_slot rest r0] GPU NVIDIA B200
+  sensitivity: generated on GPU, 8.1 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,107,897 trues in 72.9 s
+  23 frames reconstructed in 30 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.023 (true 1.0); old normal 1.014
+  TIMES s: sens 8.1  simulate 72.9  OSEM 14.2  fit+other 29.3  TOTAL 126.3
+[R280_slot stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,527,642 trues in 57.6 s
+  23 frames reconstructed in 24 s
+  MBF normal 3.086 +/- 0.066 (true 3.0), defect 1.556 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.6  OSEM 10.6  fit+other 24.5  TOTAL 92.9
+=== real 0 R280_slot 320 ps 17:55:34
+[R280_slot rest r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,107,897 trues in 74.2 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.018 +/- 0.019 (true 1.0), defect 0.999 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.2  OSEM 21.5  fit+other 29.4  TOTAL 126.5
+[R280_slot stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,527,642 trues in 57.8 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.081 +/- 0.099 (true 3.0), defect 1.482 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.8  OSEM 16.9  fit+other 24.0  TOTAL 98.9
+=== real 0 R350_closed 200 ps 17:59:20
+[R350_closed rest r0] GPU NVIDIA B200
+  sensitivity: generated on GPU, 7.5 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,030,964 trues in 110.5 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.014 +/- 0.015 (true 1.0), defect 0.990 (true 1.0); old normal 1.014
+  TIMES s: sens 7.5  simulate 110.5  OSEM 37.0  fit+other 50.3  TOTAL 206.9
+[R350_closed stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,618,000 trues in 108.7 s
+  23 frames reconstructed in 72 s
+  MBF normal 3.106 +/- 0.069 (true 3.0), defect 1.581 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 108.7  OSEM 41.7  fit+other 57.7  TOTAL 208.4
+=== real 0 R350_closed 320 ps 18:06:17
+[R350_closed rest r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,030,964 trues in 112.1 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.007 +/- 0.014 (true 1.0), defect 0.984 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.1  OSEM 42.6  fit+other 50.7  TOTAL 207.0
+[R350_closed stress r0] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,618,000 trues in 109.1 s
+  23 frames reconstructed in 78 s
+  MBF normal 3.085 +/- 0.082 (true 3.0), defect 1.539 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.1  OSEM 47.5  fit+other 58.0  TOTAL 214.9
+=== real 1 R280_slot 200 ps 18:13:20
+[R280_slot rest r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,092,316 trues in 73.9 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.029 +/- 0.014 (true 1.0), defect 1.002 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 73.9  OSEM 17.4  fit+other 29.3  TOTAL 122.0
+[R280_slot stress r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,527,185 trues in 57.5 s
+  23 frames reconstructed in 27 s
+  MBF normal 3.128 +/- 0.078 (true 3.0), defect 1.544 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.5  OSEM 14.3  fit+other 24.1  TOTAL 96.0
+=== real 1 R280_slot 320 ps 18:17:00
+[R280_slot rest r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,092,316 trues in 74.2 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.026 +/- 0.012 (true 1.0), defect 0.999 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.2  OSEM 17.8  fit+other 29.4  TOTAL 122.9
+[R280_slot stress r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,527,185 trues in 57.8 s
+  23 frames reconstructed in 26 s
+  MBF normal 3.132 +/- 0.086 (true 3.0), defect 1.479 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.8  OSEM 13.2  fit+other 24.4  TOTAL 95.6
+=== real 1 R350_closed 200 ps 18:20:39
+[R350_closed rest r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,036,971 trues in 111.7 s
+  23 frames reconstructed in 61 s
+  MBF normal 1.023 +/- 0.021 (true 1.0), defect 1.042 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 111.7  OSEM 33.7  fit+other 50.6  TOTAL 197.4
+[R350_closed stress r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,620,605 trues in 108.9 s
+  23 frames reconstructed in 69 s
+  MBF normal 3.124 +/- 0.080 (true 3.0), defect 1.666 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 108.9  OSEM 37.7  fit+other 57.8  TOTAL 204.5
+=== real 1 R350_closed 320 ps 18:27:23
+[R350_closed rest r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,036,971 trues in 112.1 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.017 +/- 0.020 (true 1.0), defect 1.037 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.1  OSEM 43.0  fit+other 50.7  TOTAL 207.3
+[R350_closed stress r1] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,620,605 trues in 109.2 s
+  23 frames reconstructed in 78 s
+  MBF normal 3.111 +/- 0.086 (true 3.0), defect 1.634 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.2  OSEM 47.3  fit+other 57.8  TOTAL 214.5
+=== real 2 R280_slot 200 ps 18:34:26
+[R280_slot rest r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,116,888 trues in 74.4 s
+  23 frames reconstructed in 34 s
+  MBF normal 1.027 +/- 0.013 (true 1.0), defect 1.025 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.4  OSEM 18.4  fit+other 29.4  TOTAL 123.6
+[R280_slot stress r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,521,902 trues in 58.0 s
+  23 frames reconstructed in 26 s
+  MBF normal 3.129 +/- 0.092 (true 3.0), defect 1.535 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.0  OSEM 13.5  fit+other 24.4  TOTAL 96.0
+=== real 2 R280_slot 320 ps 18:38:07
+[R280_slot rest r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,116,888 trues in 74.0 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.026 +/- 0.013 (true 1.0), defect 1.002 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.0  OSEM 21.7  fit+other 29.3  TOTAL 126.4
+[R280_slot stress r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,521,902 trues in 57.8 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.135 +/- 0.099 (true 3.0), defect 1.491 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.8  OSEM 16.5  fit+other 24.2  TOTAL 98.6
+=== real 2 R350_closed 200 ps 18:41:53
+[R350_closed rest r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,028,969 trues in 111.9 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.021 +/- 0.021 (true 1.0), defect 1.018 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 111.9  OSEM 37.0  fit+other 50.4  TOTAL 200.8
+[R350_closed stress r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,640,876 trues in 109.1 s
+  23 frames reconstructed in 72 s
+  MBF normal 3.134 +/- 0.085 (true 3.0), defect 1.592 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.1  OSEM 41.3  fit+other 57.8  TOTAL 208.4
+=== real 2 R350_closed 320 ps 18:48:44
+[R350_closed rest r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,028,969 trues in 112.2 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.015 +/- 0.019 (true 1.0), defect 1.007 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.2  OSEM 38.2  fit+other 50.5  TOTAL 202.4
+[R350_closed stress r2] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,640,876 trues in 109.2 s
+  23 frames reconstructed in 74 s
+  MBF normal 3.124 +/- 0.070 (true 3.0), defect 1.584 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.2  OSEM 42.6  fit+other 58.2  TOTAL 210.3
+=== real 3 R280_slot 200 ps 18:55:38
+[R280_slot rest r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,084,390 trues in 74.1 s
+  23 frames reconstructed in 30 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.040 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.1  OSEM 14.9  fit+other 29.4  TOTAL 119.8
+[R280_slot stress r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,533,960 trues in 58.0 s
+  23 frames reconstructed in 24 s
+  MBF normal 3.138 +/- 0.089 (true 3.0), defect 1.588 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.0  OSEM 10.9  fit+other 24.4  TOTAL 93.4
+=== real 3 R280_slot 320 ps 18:59:13
+[R280_slot rest r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,084,390 trues in 74.3 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.027 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.3  OSEM 21.6  fit+other 29.6  TOTAL 126.8
+[R280_slot stress r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,533,960 trues in 57.8 s
+  23 frames reconstructed in 30 s
+  MBF normal 3.149 +/- 0.085 (true 3.0), defect 1.485 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.8  OSEM 17.7  fit+other 24.3  TOTAL 99.9
+=== real 3 R350_closed 200 ps 19:03:01
+[R350_closed rest r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,033,232 trues in 111.7 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.018 +/- 0.017 (true 1.0), defect 1.042 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 111.7  OSEM 37.2  fit+other 50.7  TOTAL 201.0
+[R350_closed stress r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,669,940 trues in 108.9 s
+  23 frames reconstructed in 72 s
+  MBF normal 3.128 +/- 0.050 (true 3.0), defect 1.517 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 108.9  OSEM 41.5  fit+other 57.8  TOTAL 208.4
+=== real 3 R350_closed 320 ps 19:09:51
+[R350_closed rest r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,033,232 trues in 112.0 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.012 +/- 0.018 (true 1.0), defect 1.032 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.0  OSEM 42.8  fit+other 50.6  TOTAL 206.8
+[R350_closed stress r3] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,669,940 trues in 109.3 s
+  23 frames reconstructed in 78 s
+  MBF normal 3.132 +/- 0.044 (true 3.0), defect 1.523 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.3  OSEM 47.5  fit+other 57.8  TOTAL 214.8
+=== real 4 R280_slot 200 ps 19:16:54
+[R280_slot rest r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,125,425 trues in 74.0 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.017 +/- 0.017 (true 1.0), defect 1.032 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.0  OSEM 17.7  fit+other 29.3  TOTAL 122.4
+[R280_slot stress r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,521,573 trues in 57.7 s
+  23 frames reconstructed in 26 s
+  MBF normal 3.154 +/- 0.087 (true 3.0), defect 1.575 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.7  OSEM 13.3  fit+other 24.3  TOTAL 95.4
+=== real 4 R280_slot 320 ps 19:20:34
+[R280_slot rest r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,125,425 trues in 74.1 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.008 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.1  OSEM 17.6  fit+other 29.5  TOTAL 122.6
+[R280_slot stress r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,521,573 trues in 57.8 s
+  23 frames reconstructed in 26 s
+  MBF normal 3.152 +/- 0.086 (true 3.0), defect 1.483 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.8  OSEM 12.7  fit+other 24.4  TOTAL 95.0
+=== real 4 R350_closed 200 ps 19:24:12
+[R350_closed rest r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,021,363 trues in 111.7 s
+  23 frames reconstructed in 61 s
+  MBF normal 1.023 +/- 0.017 (true 1.0), defect 1.060 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 111.7  OSEM 34.1  fit+other 50.7  TOTAL 197.9
+[R350_closed stress r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,635,958 trues in 109.1 s
+  23 frames reconstructed in 69 s
+  MBF normal 3.156 +/- 0.060 (true 3.0), defect 1.583 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.1  OSEM 37.9  fit+other 57.9  TOTAL 205.1
+=== real 4 R350_closed 320 ps 19:30:57
+[R350_closed rest r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,021,363 trues in 112.1 s
+  23 frames reconstructed in 69 s
+  MBF normal 1.020 +/- 0.015 (true 1.0), defect 1.068 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.1  OSEM 42.6  fit+other 50.6  TOTAL 206.8
+[R350_closed stress r4] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,635,958 trues in 109.2 s
+  23 frames reconstructed in 77 s
+  MBF normal 3.151 +/- 0.064 (true 3.0), defect 1.591 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.2  OSEM 46.5  fit+other 57.7  TOTAL 213.6
+=== real 5 R280_slot 200 ps 19:37:59
+[R280_slot rest r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,097,054 trues in 74.2 s
+  23 frames reconstructed in 34 s
+  MBF normal 1.034 +/- 0.017 (true 1.0), defect 1.026 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.2  OSEM 18.1  fit+other 29.3  TOTAL 123.1
+[R280_slot stress r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,507,390 trues in 57.6 s
+  23 frames reconstructed in 26 s
+  MBF normal 3.070 +/- 0.080 (true 3.0), defect 1.537 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.6  OSEM 13.4  fit+other 24.3  TOTAL 95.4
+=== real 5 R280_slot 320 ps 19:41:38
+[R280_slot rest r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,097,054 trues in 74.2 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.032 +/- 0.020 (true 1.0), defect 1.026 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.2  OSEM 21.6  fit+other 29.4  TOTAL 126.6
+[R280_slot stress r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,507,390 trues in 57.9 s
+  23 frames reconstructed in 30 s
+  MBF normal 3.082 +/- 0.076 (true 3.0), defect 1.472 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 57.9  OSEM 16.6  fit+other 24.5  TOTAL 99.1
+=== real 5 R350_closed 200 ps 19:45:26
+[R350_closed rest r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,064,267 trues in 112.4 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.021 +/- 0.010 (true 1.0), defect 1.029 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.4  OSEM 37.4  fit+other 50.8  TOTAL 202.1
+[R350_closed stress r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,618,914 trues in 109.8 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.139 +/- 0.079 (true 3.0), defect 1.522 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.8  OSEM 41.6  fit+other 58.4  TOTAL 209.9
+=== real 5 R350_closed 320 ps 19:52:19
+[R350_closed rest r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,064,267 trues in 112.9 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.019 +/- 0.012 (true 1.0), defect 1.018 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.9  OSEM 38.2  fit+other 51.4  TOTAL 204.0
+[R350_closed stress r5] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,618,914 trues in 110.1 s
+  23 frames reconstructed in 75 s
+  MBF normal 3.132 +/- 0.073 (true 3.0), defect 1.525 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.1  OSEM 43.5  fit+other 59.0  TOTAL 212.8
+=== real 6 R280_slot 200 ps 19:59:17
+[R280_slot rest r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,103,820 trues in 74.2 s
+  23 frames reconstructed in 33 s
+  MBF normal 1.011 +/- 0.010 (true 1.0), defect 1.006 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.2  OSEM 17.0  fit+other 30.0  TOTAL 122.7
+[R280_slot stress r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,515,975 trues in 58.1 s
+  23 frames reconstructed in 25 s
+  MBF normal 3.089 +/- 0.030 (true 3.0), defect 1.520 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.1  OSEM 11.3  fit+other 24.7  TOTAL 94.3
+=== real 6 R280_slot 320 ps 20:02:56
+[R280_slot rest r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,103,820 trues in 74.7 s
+  23 frames reconstructed in 41 s
+  MBF normal 1.014 +/- 0.014 (true 1.0), defect 0.977 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.7  OSEM 24.7  fit+other 30.4  TOTAL 131.2
+[R280_slot stress r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,515,975 trues in 58.4 s
+  23 frames reconstructed in 30 s
+  MBF normal 3.086 +/- 0.049 (true 3.0), defect 1.450 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.4  OSEM 16.7  fit+other 24.9  TOTAL 100.1
+=== real 6 R350_closed 200 ps 20:06:48
+[R350_closed rest r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,042,698 trues in 112.3 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.022 +/- 0.019 (true 1.0), defect 0.996 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.3  OSEM 37.0  fit+other 51.3  TOTAL 202.1
+[R350_closed stress r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,635,002 trues in 109.6 s
+  23 frames reconstructed in 72 s
+  MBF normal 3.149 +/- 0.055 (true 3.0), defect 1.512 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 109.6  OSEM 40.8  fit+other 58.7  TOTAL 209.3
+=== real 6 R350_closed 320 ps 20:13:41
+[R350_closed rest r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,042,698 trues in 112.8 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.017 +/- 0.021 (true 1.0), defect 0.995 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 112.8  OSEM 42.9  fit+other 51.9  TOTAL 209.2
+[R350_closed stress r6] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,635,002 trues in 110.4 s
+  23 frames reconstructed in 79 s
+  MBF normal 3.147 +/- 0.066 (true 3.0), defect 1.495 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.4  OSEM 47.7  fit+other 59.1  TOTAL 217.4
+=== real 7 R280_slot 200 ps 20:20:49
+[R280_slot rest r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,108,638 trues in 74.5 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.014 +/- 0.019 (true 1.0), defect 1.019 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.5  OSEM 20.9  fit+other 30.5  TOTAL 127.3
+[R280_slot stress r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,519,573 trues in 58.4 s
+  23 frames reconstructed in 27 s
+  MBF normal 3.147 +/- 0.074 (true 3.0), defect 1.552 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.4  OSEM 13.9  fit+other 25.1  TOTAL 97.5
+=== real 7 R280_slot 320 ps 20:24:36
+[R280_slot rest r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,108,638 trues in 74.8 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.012 +/- 0.021 (true 1.0), defect 0.997 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 74.8  OSEM 20.3  fit+other 30.5  TOTAL 127.2
+[R280_slot stress r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,519,573 trues in 58.2 s
+  23 frames reconstructed in 28 s
+  MBF normal 3.140 +/- 0.087 (true 3.0), defect 1.537 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.2  OSEM 14.1  fit+other 25.2  TOTAL 97.6
+=== real 7 R350_closed 200 ps 20:28:22
+[R350_closed rest r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,033,280 trues in 114.0 s
+  23 frames reconstructed in 61 s
+  MBF normal 1.023 +/- 0.028 (true 1.0), defect 1.014 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.0  OSEM 33.4  fit+other 52.2  TOTAL 201.1
+[R350_closed stress r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,668,378 trues in 111.0 s
+  23 frames reconstructed in 69 s
+  MBF normal 3.164 +/- 0.055 (true 3.0), defect 1.642 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.0  OSEM 37.6  fit+other 59.7  TOTAL 208.5
+=== real 7 R350_closed 320 ps 20:35:13
+[R350_closed rest r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,033,280 trues in 114.3 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.017 +/- 0.030 (true 1.0), defect 1.014 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.3  OSEM 42.5  fit+other 52.0  TOTAL 210.3
+[R350_closed stress r7] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,668,378 trues in 110.9 s
+  23 frames reconstructed in 79 s
+  MBF normal 3.165 +/- 0.064 (true 3.0), defect 1.614 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.9  OSEM 47.3  fit+other 59.6  TOTAL 218.0
+=== real 8 R280_slot 200 ps 20:42:23
+[R280_slot rest r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,114,367 trues in 75.6 s
+  23 frames reconstructed in 35 s
+  MBF normal 1.028 +/- 0.018 (true 1.0), defect 1.002 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.6  OSEM 18.2  fit+other 31.7  TOTAL 126.9
+[R280_slot stress r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,513,265 trues in 58.9 s
+  23 frames reconstructed in 27 s
+  MBF normal 3.136 +/- 0.061 (true 3.0), defect 1.640 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.9  OSEM 12.7  fit+other 26.3  TOTAL 98.0
+=== real 8 R280_slot 320 ps 20:46:09
+[R280_slot rest r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,114,367 trues in 75.2 s
+  23 frames reconstructed in 41 s
+  MBF normal 1.025 +/- 0.015 (true 1.0), defect 0.982 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.2  OSEM 24.6  fit+other 31.5  TOTAL 132.6
+[R280_slot stress r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,513,265 trues in 58.5 s
+  23 frames reconstructed in 32 s
+  MBF normal 3.131 +/- 0.048 (true 3.0), defect 1.571 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.5  OSEM 18.1  fit+other 26.3  TOTAL 103.1
+=== real 8 R350_closed 200 ps 20:50:06
+[R350_closed rest r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,051,966 trues in 114.5 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.025 +/- 0.019 (true 1.0), defect 1.058 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.5  OSEM 37.2  fit+other 52.3  TOTAL 205.6
+[R350_closed stress r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,647,104 trues in 110.8 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.152 +/- 0.066 (true 3.0), defect 1.589 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.8  OSEM 41.5  fit+other 59.8  TOTAL 212.3
+=== real 8 R350_closed 320 ps 20:57:05
+[R350_closed rest r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,051,966 trues in 114.6 s
+  23 frames reconstructed in 66 s
+  MBF normal 1.022 +/- 0.019 (true 1.0), defect 1.049 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.6  OSEM 39.2  fit+other 52.3  TOTAL 207.6
+[R350_closed stress r8] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,647,104 trues in 111.0 s
+  23 frames reconstructed in 79 s
+  MBF normal 3.128 +/- 0.056 (true 3.0), defect 1.583 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.0  OSEM 47.6  fit+other 60.0  TOTAL 218.8
+=== real 9 R280_slot 200 ps 21:04:13
+[R280_slot rest r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,117,052 trues in 75.3 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.013 +/- 0.016 (true 1.0), defect 0.999 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.3  OSEM 21.0  fit+other 31.5  TOTAL 129.2
+[R280_slot stress r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,530,150 trues in 58.6 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.115 +/- 0.077 (true 3.0), defect 1.478 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.6  OSEM 15.1  fit+other 26.1  TOTAL 99.9
+=== real 9 R280_slot 320 ps 21:08:04
+[R280_slot rest r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,117,052 trues in 75.3 s
+  23 frames reconstructed in 41 s
+  MBF normal 1.010 +/- 0.019 (true 1.0), defect 1.010 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.3  OSEM 24.5  fit+other 31.6  TOTAL 132.8
+[R280_slot stress r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,530,150 trues in 58.7 s
+  23 frames reconstructed in 32 s
+  MBF normal 3.119 +/- 0.083 (true 3.0), defect 1.422 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.7  OSEM 18.0  fit+other 26.1  TOTAL 103.0
+=== real 9 R350_closed 200 ps 21:12:01
+[R350_closed rest r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,026,858 trues in 114.2 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.018 +/- 0.020 (true 1.0), defect 1.021 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.2  OSEM 37.0  fit+other 52.6  TOTAL 205.4
+[R350_closed stress r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,659,339 trues in 110.6 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.142 +/- 0.067 (true 3.0), defect 1.637 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.6  OSEM 41.3  fit+other 59.7  TOTAL 211.8
+=== real 9 R350_closed 320 ps 21:18:59
+[R350_closed rest r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,026,858 trues in 114.4 s
+  23 frames reconstructed in 70 s
+  MBF normal 1.011 +/- 0.020 (true 1.0), defect 1.013 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.4  OSEM 42.7  fit+other 52.8  TOTAL 211.4
+[R350_closed stress r9] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,659,339 trues in 111.7 s
+  23 frames reconstructed in 79 s
+  MBF normal 3.142 +/- 0.064 (true 3.0), defect 1.650 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.7  OSEM 47.7  fit+other 60.0  TOTAL 219.6
+=== real 10 R280_slot 200 ps 21:26:12
+[R280_slot rest r10] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,107,289 trues in 75.3 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.026 +/- 0.022 (true 1.0), defect 1.009 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.3  OSEM 20.8  fit+other 31.6  TOTAL 129.2
+[R280_slot stress r10] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,517,023 trues in 58.6 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.098 +/- 0.081 (true 3.0), defect 1.665 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.6  OSEM 15.2  fit+other 26.3  TOTAL 100.2
+=== real 10 R350_closed 200 ps 21:30:02
+[R350_closed rest r10] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,035,978 trues in 114.7 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.031 +/- 0.020 (true 1.0), defect 1.014 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.7  OSEM 37.3  fit+other 52.9  TOTAL 206.3
+[R350_closed stress r10] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,644,296 trues in 111.4 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.120 +/- 0.058 (true 3.0), defect 1.561 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.4  OSEM 41.6  fit+other 60.1  TOTAL 213.2
+=== real 11 R280_slot 200 ps 21:37:03
+[R280_slot rest r11] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,110,187 trues in 75.6 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.018 +/- 0.021 (true 1.0), defect 1.019 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.6  OSEM 20.7  fit+other 31.7  TOTAL 129.4
+[R280_slot stress r11] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.612e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,507,419 trues in 58.8 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.126 +/- 0.074 (true 3.0), defect 1.533 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.8  OSEM 15.1  fit+other 26.4  TOTAL 100.4
+=== real 11 R350_closed 200 ps 21:40:55
+[R350_closed rest r11] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,005,784 trues in 115.1 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.032 +/- 0.012 (true 1.0), defect 1.011 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 115.1  OSEM 36.9  fit+other 52.3  TOTAL 205.8
+[R350_closed stress r11] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.612e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,631,505 trues in 111.0 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.148 +/- 0.079 (true 3.0), defect 1.554 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.0  OSEM 41.7  fit+other 59.9  TOTAL 212.7
+=== real 12 R280_slot 200 ps 21:47:55
+[R280_slot rest r12] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,084,353 trues in 75.7 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.020 +/- 0.019 (true 1.0), defect 1.007 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.7  OSEM 20.8  fit+other 31.8  TOTAL 129.7
+[R280_slot stress r12] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,520,001 trues in 58.4 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.110 +/- 0.069 (true 3.0), defect 1.547 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.4  OSEM 15.6  fit+other 26.3  TOTAL 100.4
+=== real 12 R350_closed 200 ps 21:51:46
+[R350_closed rest r12] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,003,502 trues in 114.2 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.020 +/- 0.013 (true 1.0), defect 1.017 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.2  OSEM 37.0  fit+other 52.6  TOTAL 205.2
+[R350_closed stress r12] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.315e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,618,188 trues in 110.7 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.131 +/- 0.041 (true 3.0), defect 1.600 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.7  OSEM 41.7  fit+other 59.7  TOTAL 212.3
+=== real 13 R280_slot 200 ps 21:58:45
+[R280_slot rest r13] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,079,278 trues in 75.2 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.016 +/- 0.012 (true 1.0), defect 1.045 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.2  OSEM 20.9  fit+other 31.6  TOTAL 129.2
+[R280_slot stress r13] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,516,753 trues in 58.5 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.102 +/- 0.064 (true 3.0), defect 1.530 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.5  OSEM 15.1  fit+other 26.0  TOTAL 99.7
+=== real 13 R350_closed 200 ps 22:02:35
+[R350_closed rest r13] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,017,858 trues in 114.9 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.017 +/- 0.013 (true 1.0), defect 1.030 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.9  OSEM 37.6  fit+other 52.4  TOTAL 206.3
+[R350_closed stress r13] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,660,224 trues in 111.5 s
+  23 frames reconstructed in 74 s
+  MBF normal 3.116 +/- 0.053 (true 3.0), defect 1.517 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.5  OSEM 42.0  fit+other 60.0  TOTAL 213.7
+=== real 14 R280_slot 200 ps 22:09:37
+[R280_slot rest r14] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,092,695 trues in 75.2 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.022 +/- 0.018 (true 1.0), defect 1.041 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.2  OSEM 20.8  fit+other 31.5  TOTAL 128.9
+[R280_slot stress r14] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.612e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,520,893 trues in 58.5 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.129 +/- 0.077 (true 3.0), defect 1.538 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.5  OSEM 15.3  fit+other 26.2  TOTAL 100.1
+=== real 14 R350_closed 200 ps 22:13:27
+[R350_closed rest r14] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,030,293 trues in 114.3 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.021 +/- 0.013 (true 1.0), defect 1.024 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.3  OSEM 37.2  fit+other 52.6  TOTAL 205.6
+[R350_closed stress r14] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.612e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,629,402 trues in 110.8 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.115 +/- 0.071 (true 3.0), defect 1.560 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.8  OSEM 41.3  fit+other 59.7  TOTAL 212.1
+=== real 15 R280_slot 200 ps 22:20:26
+[R280_slot rest r15] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,113,396 trues in 75.5 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.026 +/- 0.021 (true 1.0), defect 1.017 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.5  OSEM 21.0  fit+other 31.4  TOTAL 129.3
+[R280_slot stress r15] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,524,514 trues in 58.9 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.131 +/- 0.056 (true 3.0), defect 1.574 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.9  OSEM 14.9  fit+other 26.3  TOTAL 100.1
+=== real 15 R350_closed 200 ps 22:24:17
+[R350_closed rest r15] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,048,939 trues in 114.8 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.022 +/- 0.019 (true 1.0), defect 1.031 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.8  OSEM 37.5  fit+other 52.9  TOTAL 206.7
+[R350_closed stress r15] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,654,950 trues in 111.3 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.103 +/- 0.063 (true 3.0), defect 1.521 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.3  OSEM 41.6  fit+other 60.0  TOTAL 213.0
+=== real 16 R280_slot 200 ps 22:31:18
+[R280_slot rest r16] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,108,931 trues in 75.5 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.014 +/- 0.011 (true 1.0), defect 0.985 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.5  OSEM 21.0  fit+other 31.7  TOTAL 129.6
+[R280_slot stress r16] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,502,345 trues in 58.8 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.130 +/- 0.081 (true 3.0), defect 1.497 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.8  OSEM 14.9  fit+other 26.2  TOTAL 100.0
+=== real 16 R350_closed 200 ps 22:35:09
+[R350_closed rest r16] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,049,674 trues in 114.4 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.026 +/- 0.014 (true 1.0), defect 1.038 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.4  OSEM 37.0  fit+other 52.5  TOTAL 205.4
+[R350_closed stress r16] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,670,169 trues in 110.9 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.156 +/- 0.083 (true 3.0), defect 1.582 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.9  OSEM 41.4  fit+other 59.6  TOTAL 212.0
+=== real 17 R280_slot 200 ps 22:42:08
+[R280_slot rest r17] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,114,805 trues in 75.6 s
+  23 frames reconstructed in 38 s
+  MBF normal 1.023 +/- 0.018 (true 1.0), defect 1.031 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.6  OSEM 21.3  fit+other 31.6  TOTAL 129.9
+[R280_slot stress r17] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,538,229 trues in 58.8 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.086 +/- 0.082 (true 3.0), defect 1.492 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.8  OSEM 15.1  fit+other 26.3  TOTAL 100.3
+=== real 17 R350_closed 200 ps 22:46:00
+[R350_closed rest r17] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.431e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.926e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,029,266 trues in 114.3 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.021 +/- 0.020 (true 1.0), defect 1.011 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.3  OSEM 37.2  fit+other 53.0  TOTAL 205.9
+[R350_closed stress r17] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,655,167 trues in 111.2 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.135 +/- 0.061 (true 3.0), defect 1.574 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 111.2  OSEM 41.6  fit+other 60.0  TOTAL 213.0
+=== real 18 R280_slot 200 ps 22:53:00
+[R280_slot rest r18] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,109,062 trues in 75.4 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.020 +/- 0.016 (true 1.0), defect 1.015 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.4  OSEM 20.9  fit+other 31.4  TOTAL 129.2
+[R280_slot stress r18] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 112,509,417 trues in 58.6 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.120 +/- 0.092 (true 3.0), defect 1.515 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.6  OSEM 14.9  fit+other 26.3  TOTAL 99.9
+=== real 18 R350_closed 200 ps 22:56:51
+[R350_closed rest r18] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.103e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.101e+09 decays
+  adipose         14202 mL  4.326e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,025,249 trues in 114.3 s
+  23 frames reconstructed in 64 s
+  MBF normal 1.015 +/- 0.015 (true 1.0), defect 1.026 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.3  OSEM 37.1  fit+other 52.6  TOTAL 205.7
+[R350_closed stress r18] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.080e+08 decays
+  myo_defect          6 mL  1.160e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.479e+09 decays
+  2.265e+10 decays -> 235,672,728 trues in 110.9 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.157 +/- 0.089 (true 3.0), defect 1.574 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.9  OSEM 41.3  fit+other 59.7  TOTAL 212.1
+=== real 19 R280_slot 200 ps 23:03:50
+[R280_slot rest r19] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 137,109,932 trues in 75.2 s
+  23 frames reconstructed in 37 s
+  MBF normal 1.033 +/- 0.020 (true 1.0), defect 1.038 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 75.2  OSEM 20.9  fit+other 31.6  TOTAL 129.2
+[R280_slot stress r19] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 112,518,782 trues in 58.5 s
+  23 frames reconstructed in 29 s
+  MBF normal 3.090 +/- 0.061 (true 3.0), defect 1.579 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 58.5  OSEM 15.1  fit+other 26.2  TOTAL 100.0
+=== real 19 R350_closed 200 ps 23:07:41
+[R350_closed rest r19] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  5.432e+08 decays
+  myocardium         92 mL  3.104e+08 decays
+  myo_defect          6 mL  1.925e+07 decays
+  soft_tissue     12930 mL  7.102e+09 decays
+  adipose         14202 mL  4.325e+09 decays
+  bone              378 mL  3.392e+08 decays
+  liver            1754 mL  5.587e+09 decays
+  lung             3665 mL  4.622e+09 decays
+  arm              6514 mL  3.578e+09 decays
+  2.643e+10 decays -> 213,029,827 trues in 114.6 s
+  23 frames reconstructed in 65 s
+  MBF normal 1.023 +/- 0.021 (true 1.0), defect 1.020 (true 1.0); old normal 1.014
+  TIMES s: sens 0.0  simulate 114.6  OSEM 37.2  fit+other 52.5  TOTAL 205.7
+[R350_closed stress r19] GPU NVIDIA B200
+  sensitivity: cached GPU file, 0.0 s
+  blood_pool        109 mL  3.026e+08 decays
+  myocardium         92 mL  2.079e+08 decays
+  myo_defect          6 mL  1.161e+07 decays
+  soft_tissue     12930 mL  8.845e+09 decays
+  adipose         14202 mL  2.316e+09 decays
+  bone              378 mL  1.821e+08 decays
+  liver            1754 mL  2.691e+09 decays
+  lung             3665 mL  2.613e+09 decays
+  arm              6514 mL  5.478e+09 decays
+  2.265e+10 decays -> 235,623,280 trues in 110.8 s
+  23 frames reconstructed in 73 s
+  MBF normal 3.111 +/- 0.056 (true 3.0), defect 1.581 (true 1.5); old normal 3.122
+  TIMES s: sens 0.0  simulate 110.8  OSEM 41.9  fit+other 60.0  TOTAL 212.8
+Fri Nov 13 23:14:41 EST 2026
+ALL DONE

@@ -1,0 +1,26 @@
+{
+  "config": "R350_closed",
+  "state": "rest",
+  "real": 9,
+  "scale": 1.0,
+  "n_decays": 26425339579,
+  "n_trues": 213026858,
+  "mbf_normal_mean": 1.010678199579996,
+  "mbf_normal_sd": 0.019692402381425257,
+  "mbf_defect": 1.012859296649449,
+  "true_normal": 1.0,
+  "true_defect": 1.0,
+  "seconds": {
+    "sensitivity": 0.0,
+    "simulate": 114.41725754085928,
+    "osem_all_frames": 42.69906283542514,
+    "recon_fit_total": 95.48941084789112,
+    "fit_and_other": 52.790348012465984,
+    "total": 211.37779609998688
+  },
+  "gpu": "NVIDIA B200",
+  "old_reference": {
+    "normal": 1.014,
+    "trues": 137100000.0
+  }
+}

@@ -1,0 +1,157 @@
+Sat Nov 14 04:58:26 PM EST 2026
+cdc-v11-31-s
+CPU(s):                                  72
+Model name:                              Neoverse-V2
+CPU(s) scaling MHz:                      100%
+C: 10 count-rate tasks in stage 8c
+=== C count-rate task 8 16:58:57
+[P4_T30A24] blood_pool   1.00e+08 decays: singles/decay 0.1196, trues/decay 0.00823 (13 s)
+[P4_T30A24] myocardium   1.00e+08 decays: singles/decay 0.1323, trues/decay 0.00880 (22 s)
+[P4_T30A24] myo_defect   1.00e+08 decays: singles/decay 0.1358, trues/decay 0.00789 (31 s)
+[P4_T30A24] soft_tissue  1.00e+08 decays: singles/decay 0.1458, trues/decay 0.00506 (43 s)
+[P4_T30A24] adipose      1.00e+08 decays: singles/decay 0.3002, trues/decay 0.00938 (55 s)
+[P4_T30A24] bone         1.00e+08 decays: singles/decay 0.1391, trues/decay 0.00361 (67 s)
+[P4_T30A24] liver        1.00e+08 decays: singles/decay 0.0902, trues/decay 0.00147 (76 s)
+[P4_T30A24] lung         1.00e+08 decays: singles/decay 0.1639, trues/decay 0.01180 (87 s)
+[P4_T30A24] arm          1.00e+08 decays: singles/decay 0.0918, trues/decay 0.00162 (94 s)
+[P4_T30A24] abdomen      1.00e+08 decays: singles/decay 0.0306, trues/decay 0.00000 (100 s)
+[P4_T30A24] head_neck    1.00e+08 decays: singles/decay 0.0440, trues/decay 0.00000 (107 s)
+wrote tables_P4_T30A24.npz
+C task 8 seconds 110
+=== C count-rate task 9 17:00:47
+[P4_T30A30] blood_pool   1.00e+08 decays: singles/decay 0.1395, trues/decay 0.00970 (10 s)
+[P4_T30A30] myocardium   1.00e+08 decays: singles/decay 0.1539, trues/decay 0.01042 (19 s)
+[P4_T30A30] myo_defect   1.00e+08 decays: singles/decay 0.1572, trues/decay 0.00923 (28 s)
+[P4_T30A30] soft_tissue  1.00e+08 decays: singles/decay 0.1750, trues/decay 0.00755 (41 s)
+[P4_T30A30] adipose      1.00e+08 decays: singles/decay 0.3581, trues/decay 0.01382 (54 s)
+[P4_T30A30] bone         1.00e+08 decays: singles/decay 0.1664, trues/decay 0.00523 (66 s)
+[P4_T30A30] liver        1.00e+08 decays: singles/decay 0.1117, trues/decay 0.00342 (76 s)
+[P4_T30A30] lung         1.00e+08 decays: singles/decay 0.1922, trues/decay 0.01557 (87 s)
+[P4_T30A30] arm          1.00e+08 decays: singles/decay 0.1104, trues/decay 0.00239 (95 s)
+[P4_T30A30] abdomen      1.00e+08 decays: singles/decay 0.0459, trues/decay 0.00000 (102 s)
+[P4_T30A30] head_neck    1.00e+08 decays: singles/decay 0.0672, trues/decay 0.00000 (109 s)
+wrote tables_P4_T30A30.npz
+C task 9 seconds 112
+Stage 8b count rates, 15O-water 400 MBq, 240 s, non-TOF NEC (k = 1), SF 0.35, block dead time 200 ns, body-scatter singles x1.4
+config       state  win ns  trues M randoms M   NEC M  NEC/T peak R/T min live
+R280_slot    rest     3.00    129.6     548.6    26.9  0.197    219.8    0.929
+R350_closed  rest     3.44    203.7    1183.5    34.9  0.164    644.8    0.941
+P2_AP40      rest     2.98     71.5     184.8    19.5  0.256     72.1    0.926
+P4_eq        rest     3.00    175.5     630.7    39.7  0.214    238.0    0.926
+P2_T20A30    rest     2.74     26.8      84.9     6.5  0.228     26.9    0.912
+P2_T30A20    rest     2.72     32.6      69.2     9.8  0.282     26.7    0.929
+P4_T20A30    rest     2.82    113.9     362.0    27.8  0.228    114.3    0.914
+P4_T30A20    rest     2.86    109.3     330.7    27.2  0.235    126.8    0.929
+P4_T30A24    rest     2.89    144.7     485.5    34.0  0.221    178.8    0.925
+P4_T30A30    rest     2.99    210.3     876.8    43.6  0.195    295.5    0.915
+R280_slot    stress   3.00    109.4     179.3    36.2  0.322    219.8    0.961
+R350_closed  stress   3.44    229.7     508.3    65.3  0.277    644.8    0.968
+P2_AP40      stress   2.98     54.3      69.3    20.0  0.358     72.1    0.959
+P4_eq        stress   3.00    148.4     238.3    49.4  0.323    238.0    0.959
+P2_T20A30    stress   2.74     21.3      29.4     7.6  0.345     26.9    0.952
+P2_T30A20    stress   2.72     25.1      26.3    10.0  0.385     26.7    0.961
+P4_T20A30    stress   2.82     86.8     122.7    30.7  0.343    114.3    0.953
+P4_T30A20    stress   2.86     84.3     124.5    29.1  0.335    126.8    0.961
+P4_T30A24    stress   2.89    111.7     178.5    37.2  0.323    178.8    0.959
+P4_T30A30    stress   2.99    162.9     306.6    50.3  0.300    295.5    0.954
+total 401438
+-rw-r-----. 1 USER ivy-hip-monte 400001222 Nov 14 17:02 events_fastmc_R280_slot_P90_10000000.npz
+-rw-r-----. 1 USER ivy-hip-monte  11070848 Nov 14 17:02 sens_R280_slot_P90_backrest_carbon_v3.npy
+c8344416c07393fd41cd8ea9f2449b6a  /sfs/ceph/hachi/standard/ivy-hip-monte/recon_E_orig/sens_R280_slot_P90_backrest_carbon_v3.npy
+4d00a7cfa79f2513bc521a782eb4722b  /sfs/ceph/hachi/standard/ivy-hip-monte/recon_E_orig/events_fastmc_R280_slot_P90_10000000.npz
+dd6268de4ab212ba0816d1d304593e0b  /sfs/ceph/hachi/standard/ivy-hip-monte/recon/events_fastmc_R280_slot_P90_10000000.npz
+n_emitted 2338414321 x0.65 1519969308 (old run: 1519969308)
+=== E prep 0 17:02:58
+[R280_slot] sensitivity loaded: sens_R280_slot_P90_backrest_carbon_v3.npy
+[R280_slot] 50,000,000 uniform-LV trues in 612 s
+    iteration 1/8: 25.7 s
+    iteration 2/8: 22.5 s
+    iteration 3/8: 22.5 s
+    iteration 4/8: 22.5 s
+    iteration 5/8: 22.6 s
+    iteration 6/8: 22.6 s
+    iteration 7/8: 22.5 s
+    iteration 8/8: 22.6 s
+[R280_slot] calibration saved
+E prep seconds 800
+=== E motion task 0 17:16:18
+[R280_slot static r0] 6,262,847 trues from 1,519,969,308 decays (x0.65 window) in 100 s
+    iteration 1/8: 5.8 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+  150 ps none    : contrast 0.250 / corrected 0.195 (true 0.200), recovery 0.966, remote CV 3.5%, false 0.038
+E task 0 seconds 129
+=== E motion task 5 17:18:27
+[R280_slot exercise r0] 6,250,620 trues from 1,519,969,308 decays (x0.65 window) in 101 s
+    iteration 1/8: 5.8 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 1.3 s
+    iteration 2/8: 1.3 s
+    iteration 3/8: 1.3 s
+    iteration 4/8: 1.3 s
+    iteration 5/8: 1.4 s
+    iteration 6/8: 1.3 s
+    iteration 7/8: 1.3 s
+    iteration 8/8: 1.3 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+    iteration 1/8: 2.7 s
+    iteration 2/8: 2.7 s
+    iteration 3/8: 2.7 s
+    iteration 4/8: 2.7 s
+    iteration 5/8: 2.7 s
+    iteration 6/8: 2.7 s
+    iteration 7/8: 2.7 s
+    iteration 8/8: 2.7 s
+  150 ps none    : contrast 0.084 / corrected 0.017 (true 0.200), recovery 0.749, remote CV 9.1%, false 0.183
+  150 ps gated   : contrast 0.218 / corrected 0.163 (true 0.200), recovery 0.844, remote CV 5.7%, false 0.083
+  150 ps mc_data : contrast 0.234 / corrected 0.176 (true 0.200), recovery 0.885, remote CV 3.6%, false 0.050, motion RMS 1.4/1.4/1.7 mm
+  150 ps cam_good: contrast 0.245 / corrected 0.189 (true 0.200), recovery 0.939, remote CV 4.2%, false 0.045, motion RMS 0.3/0.3/0.5 mm
+  150 ps cam_poor: contrast 0.203 / corrected 0.144 (true 0.200), recovery 0.893, remote CV 3.6%, false 0.052, motion RMS 0.6/0.6/2.6 mm
+  150 ps hybrid  : contrast 0.232 / corrected 0.174 (true 0.200), recovery 0.915, remote CV 3.9%, false 0.059, motion RMS 0.6/0.5/1.5 mm
+  150 ps mc_true : contrast 0.214 / corrected 0.156 (true 0.200), recovery 0.971, remote CV 3.0%, false 0.045
+E task 5 seconds 258
+total seconds 1459
+Sat Nov 14 05:22:45 PM EST 2026
+ALL DONE

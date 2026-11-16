@@ -1,0 +1,139 @@
+[2026-11-11T16:00:56.113] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+[2026-11-11T16:00:56.115] error: couldn't chdir to `/home/USER': No such file or directory: going to /tmp instead
+Wed Nov 11 04:00:56 PM EST 2026
+cdc-v11-27-s
+               total        used        free      shared  buff/cache   available
+Mem:             620          41         597           0           2         579
+=== GPU 3 mm replicate 10 (16:00:56)
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 26.21 s (min 26.18, max 26.23), 15.3 M event passes/s, warm-up 6.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_160303.json
+=== GPU 3 mm replicate 30 (16:03:04)
+[R280_slot P90] grid (80, 186, 186), 300,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 80.89 s (min 80.76, max 80.97), 14.8 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_160719.json
+=== GPU 3 mm replicate 100 (16:07:19)
+[R280_slot P90] grid (80, 186, 186), 1,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 270.35 s (min 270.35, max 270.35), 14.8 M event passes/s, warm-up 1.6 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_161218.json
+=== GPU 3 mm replicate 300 (16:12:18)
+[R280_slot P90] grid (80, 186, 186), 3,000,000,000 events, OSEM 4x10, devices ['gpu'], 72 CPU threads, aarch64
+/sfs/ceph/hachi/standard/ivy-hip-monte/envs/pet/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 827.42 s (min 827.42, max 827.42), 14.5 M event passes/s, warm-up 1.5 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_162718.json
+=== CPU 3 mm replicate 10 (16:27:19)
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['cpu'], 72 CPU threads, aarch64
+  CTR     200 cpu: median 192.04 s (min 192.04, max 192.04), 2.1 M event passes/s, warm-up 10.9 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_163046.json
+=== CPU 3 mm replicate 30 (16:30:46)
+[R280_slot P90] grid (80, 186, 186), 300,000,000 events, OSEM 4x10, devices ['cpu'], 72 CPU threads, aarch64
+  CTR     200 cpu: median 574.14 s (min 574.14, max 574.14), 2.1 M event passes/s, warm-up 3.8 s
+wrote /sfs/ceph/hachi/standard/ivy-hip-monte/recon/bench/bench_B_R280_slot_P90_cdc-v11-27-s_20261111_164033.json
+=== GPU 1.5 mm replicate 10 (16:40:33)
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 470, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 466, in main
+    run(args)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 367, in run
+    grid, sens, ev, made, files = load_inputs(recon, args.config, args.body, args.voxel, args.n_trues,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 315, in load_inputs
+    mu = G.mu_map(grid, ph)
+         ^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 128, in mu_map
+    lab = on_grid(ph, ph["labels"], grid, 0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 109, in on_grid
+    out[gzs, gys, gxs] = arr[pzs, pys, pxs]
+    ~~~^^^^^^^^^^^^^^^
+ValueError: could not broadcast input array from shape (80,108,148) into shape (160,215,295)
+FAILED gpu 1.5mm 10
+=== GPU 1.5 mm replicate 30 (16:40:37)
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 470, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 466, in main
+    run(args)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 367, in run
+    grid, sens, ev, made, files = load_inputs(recon, args.config, args.body, args.voxel, args.n_trues,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 315, in load_inputs
+    mu = G.mu_map(grid, ph)
+         ^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 128, in mu_map
+    lab = on_grid(ph, ph["labels"], grid, 0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 109, in on_grid
+    out[gzs, gys, gxs] = arr[pzs, pys, pxs]
+    ~~~^^^^^^^^^^^^^^^
+ValueError: could not broadcast input array from shape (80,108,148) into shape (160,215,295)
+FAILED gpu 1.5mm 30
+=== GPU 1.5 mm replicate 100 (16:40:40)
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 470, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 466, in main
+    run(args)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 367, in run
+    grid, sens, ev, made, files = load_inputs(recon, args.config, args.body, args.voxel, args.n_trues,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 315, in load_inputs
+    mu = G.mu_map(grid, ph)
+         ^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 128, in mu_map
+    lab = on_grid(ph, ph["labels"], grid, 0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 109, in on_grid
+    out[gzs, gys, gxs] = arr[pzs, pys, pxs]
+    ~~~^^^^^^^^^^^^^^^
+ValueError: could not broadcast input array from shape (80,108,148) into shape (160,215,295)
+FAILED gpu 1.5mm 100
+=== GPU 1.5 mm replicate 300 (16:40:43)
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 470, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 466, in main
+    run(args)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 367, in run
+    grid, sens, ev, made, files = load_inputs(recon, args.config, args.body, args.voxel, args.n_trues,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 315, in load_inputs
+    mu = G.mu_map(grid, ph)
+         ^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 128, in mu_map
+    lab = on_grid(ph, ph["labels"], grid, 0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 109, in on_grid
+    out[gzs, gys, gxs] = arr[pzs, pys, pxs]
+    ~~~^^^^^^^^^^^^^^^
+ValueError: could not broadcast input array from shape (80,108,148) into shape (160,215,295)
+FAILED gpu 1.5mm 300
+=== CPU 1.5 mm replicate 10 (16:40:47)
+Traceback (most recent call last):
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 470, in <module>
+    main()
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 466, in main
+    run(args)
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 367, in run
+    grid, sens, ev, made, files = load_inputs(recon, args.config, args.body, args.voxel, args.n_trues,
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/bench_gpu.py", line 315, in load_inputs
+    mu = G.mu_map(grid, ph)
+         ^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 128, in mu_map
+    lab = on_grid(ph, ph["labels"], grid, 0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/ceph/hachi/standard/ivy-hip-monte/exercise_pet_sim/recon/geometry.py", line 109, in on_grid
+    out[gzs, gys, gxs] = arr[pzs, pys, pxs]
+    ~~~^^^^^^^^^^^^^^^
+ValueError: could not broadcast input array from shape (80,108,148) into shape (160,215,295)
+FAILED cpu 1.5mm 10
+Wed Nov 11 04:40:48 PM EST 2026

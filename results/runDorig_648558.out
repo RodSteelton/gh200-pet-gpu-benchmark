@@ -1,0 +1,220 @@
+Sat Nov 14 12:44:46 PM EST 2026
+cdc-v11-31-s
+CPU(s):                                  72
+Model name:                              Neoverse-V2
+CPU(s) scaling MHz:                      100%
+total 10812
+-rw-r-----. 1 USER ivy-hip-monte 11070848 Nov 14 12:44 sens_R280_slot_P90_backrest_carbon_v3.npy
+c8344416c07393fd41cd8ea9f2449b6a  /sfs/ceph/hachi/standard/ivy-hip-monte/recon_D_orig/sens_R280_slot_P90_backrest_carbon_v3.npy
+10cea2a618828076ba75eb19d0c97711  /sfs/ceph/hachi/standard/ivy-hip-monte/recon_CDE_grace/sens_R280_slot_P90_backrest_carbon_v3.npy
+=== D dynamic task 0 12:44:47
+  blood_pool        109 mL  5.432e+08 decays in 240 s  (11 chunks)
+  myocardium         92 mL  3.103e+08 decays in 240 s  (7 chunks)
+  myo_defect          6 mL  1.925e+07 decays in 240 s  (1 chunks)
+  soft_tissue     12930 mL  7.101e+09 decays in 240 s  (30 chunks)
+  adipose         14202 mL  4.326e+09 decays in 240 s  (30 chunks)
+  bone              378 mL  3.392e+08 decays in 240 s  (7 chunks)
+  liver            1754 mL  5.587e+09 decays in 240 s  (30 chunks)
+  lung             3665 mL  4.622e+09 decays in 240 s  (30 chunks)
+  arm              6514 mL  3.578e+09 decays in 240 s  (30 chunks)
+[R280_slot rest r0] 2.643e+10 decays -> 137,109,608 trues in 1172 s
+    iteration 1/4: 3.8 s
+    iteration 2/4: 0.6 s
+    iteration 3/4: 0.6 s
+    iteration 4/4: 0.6 s
+    iteration 1/4: 4.6 s
+    iteration 2/4: 4.6 s
+    iteration 3/4: 4.6 s
+    iteration 4/4: 4.6 s
+    iteration 1/4: 6.2 s
+    iteration 2/4: 6.2 s
+    iteration 3/4: 6.3 s
+    iteration 4/4: 6.3 s
+    iteration 1/4: 5.4 s
+    iteration 2/4: 5.4 s
+    iteration 3/4: 5.4 s
+    iteration 4/4: 5.4 s
+    iteration 1/4: 4.1 s
+    iteration 2/4: 4.1 s
+    iteration 3/4: 4.1 s
+    iteration 4/4: 4.1 s
+    iteration 1/4: 3.0 s
+    iteration 2/4: 3.0 s
+    iteration 3/4: 3.0 s
+    iteration 4/4: 3.0 s
+    iteration 1/4: 2.3 s
+    iteration 2/4: 2.3 s
+    iteration 3/4: 2.3 s
+    iteration 4/4: 2.3 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.6 s
+    iteration 2/4: 1.6 s
+    iteration 3/4: 1.6 s
+    iteration 4/4: 1.6 s
+    iteration 1/4: 1.4 s
+    iteration 2/4: 1.4 s
+    iteration 3/4: 1.4 s
+    iteration 4/4: 1.4 s
+    iteration 1/4: 1.3 s
+    iteration 2/4: 1.3 s
+    iteration 3/4: 1.3 s
+    iteration 4/4: 1.3 s
+    iteration 1/4: 2.5 s
+    iteration 2/4: 2.5 s
+    iteration 3/4: 2.5 s
+    iteration 4/4: 2.5 s
+    iteration 1/4: 2.3 s
+    iteration 2/4: 2.3 s
+    iteration 3/4: 2.3 s
+    iteration 4/4: 2.3 s
+    iteration 1/4: 2.1 s
+    iteration 2/4: 2.1 s
+    iteration 3/4: 2.1 s
+    iteration 4/4: 2.1 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.8 s
+    iteration 2/4: 1.8 s
+    iteration 3/4: 1.8 s
+    iteration 4/4: 1.8 s
+    iteration 1/4: 1.7 s
+    iteration 2/4: 1.7 s
+    iteration 3/4: 1.7 s
+    iteration 4/4: 1.7 s
+    iteration 1/4: 3.2 s
+    iteration 2/4: 3.2 s
+    iteration 3/4: 3.2 s
+    iteration 4/4: 3.2 s
+    iteration 1/4: 2.9 s
+    iteration 2/4: 2.9 s
+    iteration 3/4: 2.9 s
+    iteration 4/4: 2.9 s
+    iteration 1/4: 2.6 s
+    iteration 2/4: 2.6 s
+    iteration 3/4: 2.6 s
+    iteration 4/4: 2.6 s
+    iteration 1/4: 3.4 s
+    iteration 2/4: 3.4 s
+    iteration 3/4: 3.4 s
+    iteration 4/4: 3.4 s
+    iteration 1/4: 2.9 s
+    iteration 2/4: 2.9 s
+    iteration 3/4: 2.9 s
+    iteration 4/4: 2.9 s
+  23 frames reconstructed in 254 s
+  MBF normal 1.01 +/- 0.02 (true 1.0), defect 1.00 (true 1.0)
+D task 0 seconds 1479
+=== D dynamic task 5 13:09:26
+  blood_pool        109 mL  3.026e+08 decays in 240 s  (7 chunks)
+  myocardium         92 mL  2.079e+08 decays in 240 s  (5 chunks)
+  myo_defect          6 mL  1.160e+07 decays in 240 s  (1 chunks)
+  soft_tissue     12930 mL  8.845e+09 decays in 240 s  (30 chunks)
+  adipose         14202 mL  2.316e+09 decays in 240 s  (30 chunks)
+  bone              378 mL  1.821e+08 decays in 240 s  (4 chunks)
+  liver            1754 mL  2.691e+09 decays in 240 s  (30 chunks)
+  lung             3665 mL  2.613e+09 decays in 240 s  (30 chunks)
+  arm              6514 mL  5.478e+09 decays in 240 s  (30 chunks)
+[R280_slot stress r0] 2.265e+10 decays -> 112,507,613 trues in 991 s
+    iteration 1/4: 3.5 s
+    iteration 2/4: 0.3 s
+    iteration 3/4: 0.3 s
+    iteration 4/4: 0.3 s
+    iteration 1/4: 3.5 s
+    iteration 2/4: 3.5 s
+    iteration 3/4: 3.5 s
+    iteration 4/4: 3.5 s
+    iteration 1/4: 3.6 s
+    iteration 2/4: 3.6 s
+    iteration 3/4: 3.6 s
+    iteration 4/4: 3.6 s
+    iteration 1/4: 2.5 s
+    iteration 2/4: 2.5 s
+    iteration 3/4: 2.5 s
+    iteration 4/4: 2.5 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.6 s
+    iteration 2/4: 1.6 s
+    iteration 3/4: 1.6 s
+    iteration 4/4: 1.6 s
+    iteration 1/4: 1.4 s
+    iteration 2/4: 1.4 s
+    iteration 3/4: 1.4 s
+    iteration 4/4: 1.4 s
+    iteration 1/4: 1.3 s
+    iteration 2/4: 1.3 s
+    iteration 3/4: 1.3 s
+    iteration 4/4: 1.3 s
+    iteration 1/4: 1.2 s
+    iteration 2/4: 1.2 s
+    iteration 3/4: 1.2 s
+    iteration 4/4: 1.2 s
+    iteration 1/4: 1.2 s
+    iteration 2/4: 1.2 s
+    iteration 3/4: 1.2 s
+    iteration 4/4: 1.2 s
+    iteration 1/4: 1.1 s
+    iteration 2/4: 1.1 s
+    iteration 3/4: 1.1 s
+    iteration 4/4: 1.1 s
+    iteration 1/4: 1.1 s
+    iteration 2/4: 1.1 s
+    iteration 3/4: 1.1 s
+    iteration 4/4: 1.1 s
+    iteration 1/4: 2.2 s
+    iteration 2/4: 2.2 s
+    iteration 3/4: 2.2 s
+    iteration 4/4: 2.2 s
+    iteration 1/4: 2.1 s
+    iteration 2/4: 2.1 s
+    iteration 3/4: 2.1 s
+    iteration 4/4: 2.1 s
+    iteration 1/4: 2.0 s
+    iteration 2/4: 2.0 s
+    iteration 3/4: 2.0 s
+    iteration 4/4: 2.0 s
+    iteration 1/4: 1.9 s
+    iteration 2/4: 1.9 s
+    iteration 3/4: 1.9 s
+    iteration 4/4: 1.9 s
+    iteration 1/4: 1.8 s
+    iteration 2/4: 1.8 s
+    iteration 3/4: 1.8 s
+    iteration 4/4: 1.8 s
+    iteration 1/4: 1.7 s
+    iteration 2/4: 1.7 s
+    iteration 3/4: 1.7 s
+    iteration 4/4: 1.7 s
+    iteration 1/4: 3.4 s
+    iteration 2/4: 3.4 s
+    iteration 3/4: 3.4 s
+    iteration 4/4: 3.4 s
+    iteration 1/4: 3.1 s
+    iteration 2/4: 3.1 s
+    iteration 3/4: 3.1 s
+    iteration 4/4: 3.1 s
+    iteration 1/4: 2.8 s
+    iteration 2/4: 2.8 s
+    iteration 3/4: 2.8 s
+    iteration 4/4: 2.8 s
+    iteration 1/4: 3.7 s
+    iteration 2/4: 3.7 s
+    iteration 3/4: 3.7 s
+    iteration 4/4: 3.7 s
+    iteration 1/4: 3.2 s
+    iteration 2/4: 3.2 s
+    iteration 3/4: 3.2 s
+    iteration 4/4: 3.2 s
+  23 frames reconstructed in 208 s
+  MBF normal 3.13 +/- 0.07 (true 3.0), defect 1.59 (true 1.5)
+D task 5 seconds 1212
+total seconds 2691
+Sat Nov 14 01:29:38 PM EST 2026
+ALL DONE

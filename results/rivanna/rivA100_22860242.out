@@ -1,0 +1,17 @@
+Wed Nov 11 23:44:32 EST 2026
+udc-an34-7
+name, driver_version
+NVIDIA A100-SXM4-80GB, 595.71.05
+[R280_slot P90] grid (80, 186, 186), 10,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR non-TOF gpu: median 2.96 s (min 2.94, max 2.98), 13.5 M event passes/s, warm-up 1.5 s
+  CTR     320 gpu: median 2.14 s (min 2.12, max 2.22), 18.7 M event passes/s, warm-up 0.0 s
+  CTR     200 gpu: median 2.04 s (min 2.03, max 2.08), 19.6 M event passes/s, warm-up 0.0 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-an34-7_20261111_234500.json
+[R280_slot P90] grid (80, 186, 186), 100,000,000 events, OSEM 4x10, devices ['gpu'], 16 CPU threads, x86_64
+/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py:748: NumbaPerformanceWarning: Grid size 8 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+  CTR     200 gpu: median 3.41 s (min 3.41, max 3.41), 117.2 M event passes/s, warm-up 1.2 s
+wrote /scratch/USER/neo_bench_rivanna/recon/bench/bench_B_R280_slot_P90_udc-an34-7_20261111_234512.json
+Wed Nov 11 23:45:12 EST 2026

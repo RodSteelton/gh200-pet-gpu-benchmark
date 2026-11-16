@@ -1,0 +1,129 @@
+{
+  "benchmark": "B, TOF list-mode OSEM",
+  "config": "R280_slot",
+  "body": "P90",
+  "seed": 7,
+  "grid": [
+    186,
+    186,
+    80
+  ],
+  "voxel_mm": 3.0,
+  "n_events": 10000000,
+  "iters": 4,
+  "subsets": 10,
+  "repeats": 3,
+  "replicate": 1,
+  "inputs": {
+    "sens": "sens_R280_slot_P90_v3.npy",
+    "events": "events_fastmc_R280_slot_P90_10000000.npz",
+    "n_emitted": 2338414321
+  },
+  "generated_inputs_s": {},
+  "env": {
+    "host": "udc-ba11-11",
+    "machine": "x86_64",
+    "platform": "Linux-4.18.0-553.124.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.11.18",
+    "numpy": "2.4.6",
+    "numba": "0.68.1",
+    "cpu_count": 120,
+    "numba_threads": 16,
+    "slurm_job": "22889491",
+    "slurm_cpus": "16",
+    "slurm_partition": "gpu-b200",
+    "time": "2026-11-12 12:41:46",
+    "scipy": "1.17.1",
+    "cpu_model": "INTEL(R) XEON(R) PLATINUM 8580",
+    "gpu": "NVIDIA B200",
+    "cuda_simulator": false,
+    "numba_cuda": "0.30.4",
+    "threading_layer": null
+  },
+  "ctr": {
+    "0": {
+      "sigma_mm": 0.0,
+      "gpu": {
+        "median_s": 4.506021152948961,
+        "min_s": 4.4680441909004,
+        "max_s": 5.167320657987148,
+        "runs_s": [
+          5.167320657987148,
+          4.506021152948961,
+          4.4680441909004
+        ],
+        "warmup_s": 1.2241017918568105,
+        "event_passes_per_s": 8877011.146257501,
+        "lv": {
+          "myo_recovery": 0.8655364960432053,
+          "segment_cv_pct": 10.540084368229621,
+          "ant_inf_over_sep_lat": 0.7773197092333853
+        },
+        "iterations_only_median_s": 3.4491078529972583,
+        "transfer_median_s": 0.9271410319488496,
+        "detail_s": {
+          "perm_s": 0.14873218000866473,
+          "gather_s": 0.8165601901710033,
+          "copy_s": 0.0349176125600934
+        },
+        "fast": false
+      }
+    },
+    "320": {
+      "sigma_mm": 20.369795005945303,
+      "gpu": {
+        "median_s": 1.7048426379915327,
+        "min_s": 1.6707432859111577,
+        "max_s": 1.7273001470603049,
+        "runs_s": [
+          1.7048426379915327,
+          1.6707432859111577,
+          1.7273001470603049
+        ],
+        "warmup_s": 0.031671609031036496,
+        "event_passes_per_s": 23462576.022338238,
+        "lv": {
+          "myo_recovery": 0.9306042790412903,
+          "segment_cv_pct": 5.544831804936929,
+          "ant_inf_over_sep_lat": 0.9219722468000554
+        },
+        "iterations_only_median_s": 0.7040344551205635,
+        "transfer_median_s": 0.8607763920444995,
+        "detail_s": {
+          "perm_s": 0.14153378107585013,
+          "gather_s": 0.8225818732753396,
+          "copy_s": 0.03824763256125152
+        },
+        "fast": false
+      }
+    },
+    "200": {
+      "sigma_mm": 12.731121878715815,
+      "gpu": {
+        "median_s": 1.480626740027219,
+        "min_s": 1.4022254291921854,
+        "max_s": 1.5025050828699023,
+        "runs_s": [
+          1.4022254291921854,
+          1.5025050828699023,
+          1.480626740027219
+        ],
+        "warmup_s": 0.0729498250875622,
+        "event_passes_per_s": 27015586.655732464,
+        "lv": {
+          "myo_recovery": 0.943212203681469,
+          "segment_cv_pct": 3.8075086345031925,
+          "ant_inf_over_sep_lat": 0.9710280630006739
+        },
+        "iterations_only_median_s": 0.4423863422125578,
+        "transfer_median_s": 0.900810549966991,
+        "detail_s": {
+          "perm_s": 0.13172611105255783,
+          "gather_s": 0.8525579248089343,
+          "copy_s": 0.03883864311501384
+        },
+        "fast": false
+      }
+    }
+  }
+}

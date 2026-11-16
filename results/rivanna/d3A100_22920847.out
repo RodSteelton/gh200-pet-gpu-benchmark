@@ -1,0 +1,94 @@
+name, driver_version
+NVIDIA A100-SXM4-40GB, 595.71.05
+/scratch/USER/neo_bench_rivanna/env/bin/nvcc
+Cuda compilation tools, release 13.5, V13.5.37
+Build cuda_13.5.r13.5/compiler.39125733_0
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/USER/neo_bench_rivanna/exercise_pet_sim/recon/gpu_diag3.py", line 12, in <module>
+    k = P._k_back.specialize(*sig)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py", line 1888, in specialize
+    specialization.compile(argtypes)
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_lock.py", line 74, in _acquire_compile_lock
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py", line 2146, in compile
+    kernel = _Kernel(self.py_func, argtypes, **self.targetoptions)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_lock.py", line 74, in _acquire_compile_lock
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/dispatcher.py", line 159, in __init__
+    cres = compile_cuda(
+           ^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_lock.py", line 74, in _acquire_compile_lock
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/compiler.py", line 801, in compile_cuda
+    cres = compile_extra(
+           ^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/compiler.py", line 611, in compile_extra
+    return pipeline.compile_extra(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler.py", line 146, in compile_extra
+    return self._compile_bytecode()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler.py", line 214, in _compile_bytecode
+    return self._compile_core()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler.py", line 190, in _compile_core
+    raise e
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler.py", line 182, in _compile_core
+    pm.run(self.state)
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_machinery.py", line 392, in run
+    raise e
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_machinery.py", line 385, in run
+    self._runPass(idx, pass_inst, state)
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_lock.py", line 74, in _acquire_compile_lock
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_machinery.py", line 337, in _runPass
+    mutated |= check(pss.run_pass, internal_state)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/compiler_machinery.py", line 291, in check
+    mangled = func(compiler_state)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typed_passes.py", line 141, in run_pass
+    typemap, return_type, calltypes, errs = type_inference_stage(
+                                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typed_passes.py", line 120, in type_inference_stage
+    errs = infer.propagate(raise_errors=raise_errors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typeinfer.py", line 1147, in propagate
+    errors = self.constraints.propagate(self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typeinfer.py", line 192, in propagate
+    constraint(typeinfer)
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typeinfer.py", line 755, in __call__
+    self.resolve(typeinfer, typeinfer.typevars, fnty=fnty)
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typeinfer.py", line 643, in resolve
+    sig = typeinfer.resolve_call(fnty, pos_args, kw_args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/core/typeinfer.py", line 1695, in resolve_call
+    return self.context.resolve_function_type(fnty, pos_args, kw_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/typing/context.py", line 198, in resolve_function_type
+    res = self._resolve_user_function_type(func, args, kws)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba_cuda/numba/cuda/typing/context.py", line 250, in _resolve_user_function_type
+    return func.get_call_type(self, args, kws)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba/core/types/functions.py", line 333, in get_call_type
+    failures.raise_error()
+  File "/scratch/USER/neo_bench_rivanna/env/lib/python3.11/site-packages/numba/core/types/functions.py", line 231, in raise_error
+    raise errors.TypingError(self.format())
+numba.core.errors.TypingError: No implementation of function Function(<built-in function getitem>) found for signature:
+ 
+ >>> getitem(typeref[array(float32, 1d, A)], int64)
+ 
+There are 18 candidate implementations:
+ - Of which 18 did not match due to:
+ Overload of function 'getitem': File: <numerous>: Line N/A.
+   With argument(s): '(typeref[array(float32, 1d, A)], int64)':
+  No match.
+
